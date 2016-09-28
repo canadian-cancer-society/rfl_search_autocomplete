@@ -1,0 +1,9 @@
+/* Compressed by the perl version of jsmin. */
+/* JavaScript::Minifier 0.02 */
+
+var vScrollClass={pausedDiv:"",step:2,speed:15,objWidth:function(obj){if(obj.offsetWidth)
+return obj.offsetWidth;if(obj.clip)
+return obj.clip.width;return 0;},objHeight:function(obj){if(obj.offsetHeight)
+return obj.offsetHeight;if(obj.clip)
+return obj.clip.height;return 0;},scrF:function(elem,sH,eH){if(vScrollClass.pausedDiv!=elem.id){var i=elem.style;var x=parseInt(i.top)-vScrollClass.step;if(x<2-eH)
+x=sH;i.top=x+'px';}},initScroll:function(outerDiv){var innerDiv=outerDiv+'in';var outerDivElem=document.getElementById(outerDiv);var innerDivElem=document.getElementById(innerDiv);outerDivElem.style.position='relative';outerDivElem.style.overflow='hidden';innerDivElem.style.position='absolute';outerDivElem.onmouseover=function(){vScrollClass.pauseScroll(innerDiv);};outerDivElem.onmouseout=vScrollClass.unpauseScroll;var outerDivWidth=vScrollClass.objWidth(outerDivElem);var outerDivHeight=vScrollClass.objHeight(outerDivElem);var innerDivHeight=vScrollClass.objHeight(innerDivElem);innerDivElem.style.marginLeft='10px';innerDivElem.style.marginRight='10px';innerDivElem.style.width=(outerDivWidth-24)+'px';innerDivElem.style.top=outerDivHeight+'px';innerDivElem.style.left='0px';var i=setInterval(function(){vScrollClass.scrF(innerDivElem,outerDivHeight,innerDivHeight);},1000/vScrollClass.speed);outerDivElem.setAttribute('interval',i);},resizeScroll:function(outerDiv){var innerDiv=outerDiv+'in';var outerDivElem=document.getElementById(outerDiv);var innerDivElem=document.getElementById(innerDiv);var outerDivWidth=vScrollClass.objWidth(outerDivElem);var outerDivHeight=vScrollClass.objHeight(outerDivElem);var innerDivHeight=vScrollClass.objHeight(innerDivElem);innerDivElem.style.width=(outerDivWidth-24)+'px';},pauseScroll:function(innerDiv){vScrollClass.pausedDiv=innerDiv;},unpauseScroll:function(){vScrollClass.pausedDiv="";}}

@@ -1,0 +1,2772 @@
+/* *********************************************************** */
+/* General                                                     */
+/* *********************************************************** */
+.mobile-hidden {
+    display: none;
+}
+
+div.tr-page-container {
+    color: #555555;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: 1px solid #EAEAEA;
+}
+
+div.tr-page-container div.header-container {
+    background-color: #f8f8f8;
+}
+
+h2.tr-page-title {
+    margin: 0;
+    padding: 20px;
+}
+
+/* *********************************************************** */
+/* Entry Page                                                  */
+/* *********************************************************** */
+
+div.tr-page-container div.side-bar {
+    width: 252px; 
+    float: right;
+    padding: 10px;
+}
+
+div.tr-page-container div.main-content {
+    width: 600px;
+    float: left;
+    overflow: hidden;
+}
+
+div.tr-page-container div.section-header {
+    padding-left: 20px;
+}
+
+div.tr-page-container div.section-sub-header {
+    background-color: #dad7d0;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #a4a19c;
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.tr-page-container div.section-sub-header.empty {
+    padding: 7px 0 0 0;
+}
+
+div.tr-page-container #entry_page_custom_html {
+    padding: 20px;
+    padding-right: 0;
+}
+
+#entry div.entry-option-info-container + div.entry-option-info-container {
+    margin-top: 30px;
+}
+
+#entry a.step-button {
+    display: block;
+    float: none;
+    margin-right: 0;
+    text-align: center;
+}
+
+#entry div.secondary-link-container {
+    text-align: center;
+    padding: 5px;
+}
+
+#entry div.secondary-link-container a.entry-text-link {
+    color: #3596d4;
+}
+
+/* *********************************************************** */
+/* Search Participant or Team Widget                           */
+/* *********************************************************** */
+#search_part_team {
+    margin-top: 10px;
+}
+
+#search_part_team ul {
+    margin: 0;
+    padding: 0;
+}
+
+#search_part_team ul li {
+    padding: 3px 10px;
+    margin: 0;
+    list-style: none outside none;
+    float: left;
+}
+
+#search_part_team ul li.ui-tabs-selected {
+    background-color: #eaeaea;
+    border: 1px solid #dbdbd9;
+    border-bottom: none;
+    
+    border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+}
+
+#search_part_team ul li.ui-tabs-selected a {
+    color: #555;
+}
+
+#search_part_team ul li a {
+    text-decoration: none;
+}
+
+#search_part_team div.ui-tabs-panel {
+    border: 1px solid #dbdbd9;
+    background-color: #eaeaea;
+    padding: 20px 5px 10px 10px;
+    margin-top: -1px;
+}
+
+#search_part_team div.ui-tabs-panel.ui-tabs-hide {
+    display: none;
+}
+
+#search_part_team div.ui-tabs-panel input {
+    margin: 2px 5px 5px 1px;
+    width: 171px;
+}
+
+#search_part_team input.ghost-text.active {
+    color: #999;
+    font-style: italic;
+}
+
+#event_search_field select,
+#team_event_search_field select {
+    width: 218px;
+}
+
+#state_search_field select,
+#team_state_search_field_select {
+    width: 218px;
+}
+
+#first_name_search_field input,
+#team_first_name_search_field input {
+    width: 200px;
+    border: 2px solid #DAD7D0;
+}
+
+#team_divison_search_field select {
+    width: 218px;
+}
+
+#search_mode_link_basic a{
+    margin-top: 35px;
+    color: green;
+}
+
+/* *********************************************************** */
+/* Status Indicators                                           */
+/* *********************************************************** */
+div.indicator-container {
+    border: 2px solid #f0f0f0;;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* More margin for the first status indicator to separate it from the donation buttons */
+div.tr-status-indicator-container + div.tr-status-indicator-container{
+  margin-top: 30px;
+}
+
+div.entry-option-info-container + div.tr-status-indicator-container,
+div.menu + div.tr-status-indicator-container{
+  margin-top: 30px
+}
+
+div.indicator-title {
+  color: #555;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px 5px 5px 0px;
+}
+
+div.indicator-container a.indicator-link {
+  color: #3596D4;
+}
+
+/* *********************************************************** */
+/* Donor List                                                  */
+/* *********************************************************** */
+div.donor-list-name {
+  overflow: hidden;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+div.donor-list-indicator-container {
+    margin-bottom: 10px;
+}
+
+/* *********************************************************** */
+/* Thermometer                                                 */
+/* *********************************************************** */
+div.thermometer-container div.amount-percentage-info {
+    float: left;
+}
+
+div.thermometer-container div.amount-raised-info {
+    float: right;
+    text-align: right;
+}
+
+div.thermometer-container div.total-goal-info {
+    display: none;
+}
+
+div.thermometer-container div.amount-percentage-info span,
+div.thermometer-container div.amount-raised-info span {
+    display: block;
+}
+
+div.thermometer-container span.amount-percentage-value,
+div.thermometer-container span.amount-raised-value {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div.thermometer-container span.amount-percentage-label,
+div.thermometer-container span.amount-raised-label {
+    font-size: .8em;
+}
+
+div.thermometer-container div.thermometer-outer {
+    background-color: #e9e9e9;
+    height: 40px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+div.thermometer-container div.thermometer-inner {
+    background-color: #c2def1;
+    height: 40px;
+    width: 0;
+    border-right: 2px solid #fff;
+    
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+}
+
+div.thermometer-container div.donation-link-container {
+    text-align: center;
+    padding: 10px;
+}
+
+div.thermometer-container div.donation-link-container a:link, 
+div.thermometer-container div.donation-link-container a:active, 
+div.thermometer-container div.donation-link-container a:visited, 
+div.thermometer-container div.donation-link-container a:hover {
+    text-decoration: none;
+}
+
+/* *********************************************************** */
+/* Find Participant Or Team Page                               */
+/* *********************************************************** */
+
+div#find_participant div.search-content {
+    padding: 10px;
+}
+div.mobile-donate {
+	display: none;
+	margin-bottom: 30px;
+}
+div#find_participant input[type="text"],
+div#find_participant select {
+    display: block;
+}
+
+#find_participant div.participant-find-search-container {
+    width: 380px;
+}
+
+#find_participant div.participant-find-search-results {
+    background-color: #f8f8f8;
+    border: 1px solid #dad7d0;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+#find_participant div.list-component-paginator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#find_participant span.list-component-paginator-link-separator {
+    display: inline-block;
+    zoom: 1;
+    margin: 10px;   
+}
+
+#find_participant div.list-component-paginator-records-text,
+#find_participant div.list-component-paginator-link-container {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+#find_participant div.list-component-paginator-records-text {
+    margin-right: 10px;
+}
+
+#find_participant div.list-component-sort-select-container {
+    margin-bottom: 10px;
+}
+
+#find_participant div#participant_find_search_results_container {
+    background-color: #f8f8f8;
+    border: 1px solid #dad7d0;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#find_participant div.list-component-row {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dfdfdf')";
+    background-image: -ms-linear-gradient(top, #ffffff, #dfdfdf);
+    background-image: -webkit-linear-gradient(top, #ffffff, #dfdfdf);
+    background-image: -moz-linear-gradient(top, #ffffff, #dfdfdf);
+    background-image: -o-linear-gradient(top, #ffffff, #dfdfdf);
+    background-image: linear-gradient(top, #ffffff, #dfdfdf);
+    border: 1px solid #dad7d0;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+
+
+div#find_participant div.list-component-body div.list-component-cell,
+div#find_participant div.list-component-body span.list-component-cell-data-text div.find-participant-badge-container {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-participant-name,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-search-team-name,
+div#find_participant div.list-component-body div.list-component-cell a.participant-find-team-donate-link {
+    margin-bottom: 10px;
+    display: block;
+}
+
+div#find_participant div.list-component-body div.list-component-cell span.list-component-cell-title-text {
+    display: block;
+    font-style: italic;
+}
+div#find_participant div.list-component-body div.list-component-cell span.list-component-cell-data-text {
+    word-wrap: break-word;
+}
+
+div#find_participant div.list-component-body div.list-component-cell-column-participant-name span.list-component-cell-title-text,
+div#find_participant div.list-component-body div.list-component-cell-column-donate span.list-component-cell-title-text,
+div#find_participant div.list-component-body div.find-participant-badge-container,
+div#find_participant div.list-component-body div.list-component-cell-column-division-name,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-search-team-name span.list-component-cell-title-text {
+    display: none;  
+}
+
+div#find_participant div.list-component-body div.list-component-cell-column-participant-name span.list-component-cell-data-text,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-search-team-name span.list-component-cell-data-text {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+div#find_participant div.list-component-body div.list-component-cell-column-donate a {
+    display: inline-block;
+    zoom: 1;
+    text-decoration: none;
+    background-color: #E3E3E3;
+    cursor: pointer;
+    padding: 5px 7px;
+    min-width: 132px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #a7d08e;
+    background-color: #d2e5c5;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2e5c5', endColorstr='#b8d39c');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2e5c5', endColorstr='#b8d39c')";
+    background-image: -ms-linear-gradient(top, #d2e5c5, #b8d39c);
+    background-image: -webkit-linear-gradient(top, #d2e5c5, #b8d39c);
+    background-image: -moz-linear-gradient(top, #d2e5c5, #b8d39c);
+    background-image: -o-linear-gradient(top, #d2e5c5, #b8d39c);
+    background-image: linear-gradient(top, #d2e5c5, #b8d39c);
+    color: #2f6601;
+    text-align: center;
+}
+
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-name,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-company-name,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-captain-name,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-tr-name,
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-date {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    float: left;
+}
+
+div#find_participant div.list-component-body div.list-component-cell span.list-component-cell-title-text {
+    font-weight: bold;
+}
+
+div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-donate {
+    float: right;   
+}
+
+div#find_participant button.search-button {
+    background: url("../../images/friendraiser/icon_search_button.png") no-repeat top left;
+    width:37px;
+    height: 31px;
+    border: none;
+    float: right;
+}
+
+div#find_participant span#participant_find_search_text,
+div#find_participant span#team_find_search_text {
+    display: none;
+}
+
+div#find_participant span#team_find_search_results_header_text {
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+div#find_participant div#find_hdr_container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* *********************************************************** */
+/* Team Page                                                   */
+/* *********************************************************** */
+img.badge-icon-small {
+	vertical-align: middle;
+}
+img.TrAchievementBadgeIconLarge{
+    margin-right: 10px;
+}
+div.TrAchievementBadgeTextLarge {
+    margin-left: 0;
+}
+div.TrAchievementBadgeDescLarge {
+    width: auto;
+}
+div#team_page_header {
+    margin: 0 auto;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.tr-page-header {
+    margin: 0 auto;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+}
+
+h2#team_page_title {
+	margin: 0;
+}
+div#team_page_custom_html{
+	float: left;
+}
+div#team_page_main_content{
+    margin: 10px 10px 10px 10px;
+    width: 590px;
+    float: left;
+    overflow: hidden;
+}
+div.tr-page-main-content {
+    margin: 10px 10px 10px 10px;
+    width: 590px;
+    float: left;
+    overflow: hidden;	
+}
+
+div.team-roster-container{
+    margin: 15px auto 0;
+    max-width: 252px;
+    float: left;
+}
+
+a#join_team_button{
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+a.tr-sidebar-button {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+div.team-roster-title{
+    float: left;
+}
+
+div.team-roster-raised-label{
+	float: right;
+	margin: 10px 5px 0px 0px;
+	font-size: 1.00em;
+}
+div.team-roster-participant-container{
+    padding-bottom: 0;
+}
+div.team-roster-participant-row{
+    margin-bottom: 15px;
+}
+div.team-roster-captain-name{
+    font-weight: bold;
+}
+div.team-roster-participant-name{
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 64%;
+}
+div.team-roster-participant-name-without-raised {
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 95%;
+}
+div.team-roster-participant-raised {
+    float: right;
+    text-align: right;
+    overflow: hidden;
+    width: 36%;
+}
+div.team-roster-legend{
+    padding: 5px 0px 0px 11px;
+}
+img.team-roster-star{
+    float: left;
+    padding-right: 5px;
+}
+div.team-roster-icon-description{
+	line-height: 18px;
+}
+div.team-progress-container{
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.vscroll-container {
+    height: 150px;
+}
+
+div.team-honor-list-row {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+div.team-honor-list-name {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: left;
+    width: 59%;
+}
+
+div.team-honor-list-value {
+	float: right;
+	overflow: hidden;
+	width: 41%;
+	text-align: right;
+	white-space: nowrap;
+}
+
+div.team-honor-list-name a:link, 
+div.team-honor-list-name a:active, 
+div.team-honor-list-name a:visited, 
+div.team-honor-list-name a:hover {
+    text-decoration: none;
+}
+
+a#html_view_more_button, a#text_view_more_button {
+    display: none;
+    margin: 1em 0;
+}
+img.team-image {
+    margin-bottom: 10px;
+}
+div.caption {
+    margin-bottom: 20px;
+}
+#team_name {
+    margin-top: 0;
+}
+a#text_view_more_button {
+	display: none;
+}
+a#html_view_more_button {
+	display: none;
+}
+div.ManageContent {
+	min-height : 16px;
+}
+/* *********************************************************** */
+/* Personal Page                                               */
+/* *********************************************************** */
+a#sidebar_donate_button {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+	
+	padding: 10px 0px;
+}
+
+a#main_donate_button {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+	
+	padding: 10px 0px;
+}
+
+th.trr-table-gift-amount{
+	max-width: 30%;
+}
+
+a#personal_page_join_team_button{
+	display: block;
+	float: none;
+	margin-right: 0;
+}
+div#personal_page_menu{
+    text-align:center;	
+    margin-bottom: 30px
+}
+div#personal_join_team_button_container, div#join_team_button_container{
+    margin-top: 30px	
+}
+a#personal_page_team_page_link{
+	margin: auto 0;
+}
+
+div.tr-personal-page-footer {
+	float: left;
+	padding: 5px 10px; 
+}
+
+div.responsive .tr-personal-blog-header {
+	color: #555555;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 10px 12px;
+	background-color: #e9e9e9;
+}
+
+div.tr-personal-blog-header span.blog-header-link{
+	float: right;
+}
+
+div.blog-post {
+	padding: 10px 0px;
+	border-bottom: 1px solid #e9e9e9;
+}
+
+div.responsive .blog-summary {
+	font-style: italic;
+}
+
+
+div.blog-reply-title-container {
+	margin-bottom: 20px;
+}
+
+div#personal_page_image_div {
+	margin-bottom: 30px;
+}
+
+label.blog-reply-label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+div.blog-reply-title-container .blog-reply-title,
+div.blog-reply-title-container .blog-reply-body {
+	display: block;
+}
+
+div.blog-reply-body-container {
+	margin-bottom: 20px;
+}
+
+div.blog-reply-body-container .blog-reply-body {
+	width: 574px;
+	height: 300px;
+	resize: none;
+}
+div#blog_captcha_container {
+	margin-bottom: 40px;	
+}
+
+div#blog_captcha_container a.captcha-link {
+	display: block;
+}
+
+div.blog-reply-buttons-container {
+	clear:both;
+}
+
+div.blog-reply-buttons-container input.blog-reply-buttons {
+	text-align: center;
+	font-weight: bold;
+	color: #286cb6;
+	
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf9ff', endColorstr='#8fc5eb');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf9ff', endColorstr='#8fc5eb')";
+    background-image: -ms-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: -webkit-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: -moz-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: -o-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: linear-gradient(top, #eaf9ff, #8fc5eb);
+	
+	border: 1px solid #adadad;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+div.blog-reply-buttons-container a.blog_cancel_link {
+	height: 31px; 
+	line-height: 31px;
+	margin-left: 25px;
+}
+div.caption{
+	margin-top: 10px;
+}
+
+div#blog-comments-container {
+	border: 1px solid #cccccc;
+}
+
+div.list-component-cell {
+	padding: 5px;
+}
+
+div#blog-comments-container div.list-oddeven-row0 {
+	background-color: #ffffff;
+}
+
+div#blog-comments-container div.list-oddeven-row1 {
+	background-color: #eeeeee;
+}
+
+/* *********************************************************** */
+/* National Company Search Page                                */
+/* *********************************************************** */
+div.national-events-search-container h2.cstmTitle {
+	margin: 20px 20px 20px 20px;
+}
+
+div.natl-co-search-container {
+	margin: 20px 20px 20px 20px;
+}
+
+div.natl-co-search-name-container {
+	margin-bottom: 8px;
+}
+
+div.natl-co-search-city-container {
+	float: left;
+	margin-right: 15px;
+}
+
+div.natl-co-search-state-container {
+	float: left;
+}
+
+#nces_state {
+	height: 27px;
+}
+
+div.natl-co-search-buttons-container .natl-co-search-button {
+	text-align: center;
+	color: #286cb6;
+	height: 35px;
+	margin-top: 9px;
+	margin-left: 60px;
+	background-color: #E5EFF4;
+	cursor: pointer;
+	
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf9ff', endColorstr='#8fc5eb');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf9ff', endColorstr='#8fc5eb')";
+    background-image: -ms-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: -webkit-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: -moz-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: -o-linear-gradient(top, #eaf9ff, #8fc5eb);
+    background-image: linear-gradient(top, #eaf9ff, #8fc5eb);
+	
+	border: 1px solid #adadad;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+div.natl-co-search-buttons-container .natl-co-search-button:hover {
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc5eb', endColorstr='#eaf9ff');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fc5eb', endColorstr='#eaf9ff')";
+    background-image: -ms-linear-gradient(top, #8fc5eb, #eaf9ff);
+    background-image: -webkit-linear-gradient(top, #8fc5eb, #eaf9ff);
+    background-image: -moz-linear-gradient(top, #8fc5eb, #eaf9ff);
+    background-image: -o-linear-gradient(top, #8fc5eb, #eaf9ff);
+    background-image: linear-gradient(top, #8fc5eb, #eaf9ff);
+}
+
+div.natl-co-search-buttons-container .natl-co-search-button:active {
+	background: #538bc9;
+	border-color: #538bc9;
+	color: #ffffff;
+}
+
+div.natl-co-search-buttons-container .natl-co-search-showall-button {
+	background: none;
+	border: 0;
+	text-decoration: underline;
+	color: #3596D4;
+	cursor: pointer;
+	line-height: 46px;
+}
+
+div.natl-co-event-list-wrapper {
+	background: #fafafa;
+	border-top: 3px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	padding: 20px 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+div.natl-co-event-list-wrapper span.natl-co-event-list-wrapper-header {
+	font-size: 1.3em;
+}
+
+div.national-events-search-container div.list-component-row {
+	margin: 20px 0px 20px 0px;
+	padding: 15px 10px;
+	height: 62px;
+	position: relative;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_0'] div.natl-co-search-name-hasbutton {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #3596d4;
+	width: 75%;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_0'] div.natl-co-search-name-nobutton {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #3596d4;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_0'] span.list-component-cell-title-text {
+	display: none;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_0'] span.list-component-cell-data-text a:link {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_1'] {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -23px;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_1'] span.list-component-cell-title-text {
+	display: none;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_1'] a.natl-co-join-directly {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_2'] {
+	clear: both;
+}
+
+div.national-events-search-container div.list-component-row div[id$='_2'],
+div.national-events-search-container div.list-component-row div[id$='_3'] {
+	float: left;
+	color: #7a7a7a;
+	padding: 10px 20px 5px 5px;
+}
+
+/* *********************************************************** */
+/* List Component                                              */
+/* *********************************************************** */
+
+div.responsive div.list-row {
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7')";
+    background-image: -ms-linear-gradient(top, #ffffff, #f7f7f7);
+    background-image: -webkit-linear-gradient(top, #ffffff, #f7f7f7);
+    background-image: -moz-linear-gradient(top, #ffffff, #f7f7f7);
+    background-image: -o-linear-gradient(top, #ffffff, #f7f7f7);
+    background-image: linear-gradient(top, #ffffff, #f7f7f7);
+
+    border: 1px solid #d8d8d8;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+div.list-component-container h2.cstmTitle {
+	margin: 20px 20px 20px 20px;
+}
+
+div.list-component-container .list-component-paginator {
+	margin: 10px 0px 20px 20px;
+	float: left;
+}
+
+div.list-component-container .list-component-paginator:empty {
+	display: none;
+}
+
+div.list-component-container div.filter-search-container {
+	margin: 10px 0px 0px 20px;
+	float: left;
+}
+
+div.list-component-container #filter_text {
+	margin: 2px 2px 10px 0px;
+	width: 142px;
+}
+
+div.list-component-container #filter_search {
+	margin-top: 2px;
+	height: 27px;
+	width: 67px;
+}
+
+div.list-component-container div.list-component-body {
+	margin: 0px 20px 0px 20px;
+	clear: both;
+}
+
+/* *********************************************************** */
+/* National Company Top Events List Page                       */
+/* *********************************************************** */
+
+div.national-top-events-container div.list-component-row {
+	padding: 15px 10px;
+	height: 62px;
+	position: relative;
+}
+
+div.national-top-events-container div.list-component-row div[id$='_0'] {
+    width: 66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.national-top-events-container div.list-component-row div[id$='_0'] span.list-component-cell-title-text {
+	display: none;
+}
+
+div.national-top-events-container div.list-component-row div[id$='_0'] span.list-component-cell-data-text {
+    font-size: 1.6em;
+}
+
+div.national-top-events-container div.list-component-row div[id$='_1'] {
+	position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -23px;
+}
+
+div.national-top-events-container div.list-component-row div[id$='_1'] span.list-component-cell-title-text {
+	float: left;
+	display: block;
+	margin: 11px 5px 0px 0px;
+}
+
+div.national-top-events-container div.list-component-row div[id$='_1'] span.list-component-cell-data-text {
+	font-size: 2.5em;
+	color: #5aac46;
+	display: block;
+	float: right;
+}
+
+/* *********************************************************** */
+/* National Company Top Participants List Page                 */
+/* *********************************************************** */
+
+div.national-top-parts-container div.list-component-row {
+	padding: 15px 10px;
+	height: 62px;
+	position: relative;
+}
+
+div.national-top-parts-container div.list-component-row div[id$='_0'] span.list-component-cell-title-text {
+	display: none;
+}
+
+div.national-top-parts-container div.list-component-row div[id$='_0'] span.list-component-cell-data-text {
+	font-size: 1.6em;
+}
+
+div.national-top-parts-container div.list-component-row div[id$='_1']
+{
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.national-top-parts-container div.list-component-row div[id$='_2'] {
+	position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -23px;
+}
+
+div.national-top-parts-container div.list-component-row div[id$='_2'] span.list-component-cell-title-text {
+	float: left;
+	display: block;
+	margin: 11px 5px 0px 0px;
+}
+
+div.national-top-parts-container div.list-component-row div[id$='_2'] span.list-component-cell-data-text {
+	font-size: 2.5em;
+	color: #5aac46;
+	display: block;
+	float: right;
+}
+
+
+/* *********************************************************** */
+/* National Top Teams                                          */
+/* *********************************************************** */
+
+
+div#national_top_teams_responsive div.list-component-row {
+    padding: 15px 10px;
+    height: 62px;
+    position: relative;
+}
+
+div#national_top_teams_responsive div.list-component-row div[id$='_0']  span.list-component-cell-title-text {
+	display: none;
+}
+div#national_top_teams_responsive div.list-component-row div[id$='_0']  span.list-component-cell-data-text {
+	font-size: 1.6em;
+}
+
+div#national_top_teams_responsive div.list-component-row div[id$='_1']{
+	position:absolute;
+	margin-top: 19px;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div#national_top_teams_responsive div.list-component-row div[id$='_2']  span.list-component-cell-title-text {
+    float: left;
+    display: block;
+    margin: 11px 5px 0px 0px;
+}
+
+div#national_top_teams_responsive div.list-component-row div[id$='_2']  span.list-component-cell-data-text {
+	font-size: 2.5em;
+	color: #5aac46;
+	display: block;
+    float: right;
+}
+
+div#national_top_teams_responsive div.list-component-row div[id$='_2']{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -17px;
+}
+
+/* *********************************************************** */
+/* Badges                                                      */
+/* *********************************************************** */
+div.TrAchievementBadgeIconListLargeHeader {
+  color: #555;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px 5px 5px 0px;
+  text-align: left;
+}
+
+div.TrAchievementBadgeLarge {
+    border: 2px solid #f0f0f0;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a#nat_company_page_particpate_button {
+    display: block;
+    float: none;
+    margin-right: 0;
+    text-align: center;
+}
+/* *********************************************************** */
+/* Company Tally                                               */
+/* *********************************************************** */
+
+    div.company-tally-title {
+        color: #555;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0;
+        float: left;
+    }
+    
+    div.company-tally-ammount {
+        margin: 0;
+        float: left;
+        margin-left : 10px;
+        margin-top: 2px;
+    }
+    
+    div.company-tally-container + div.company-tally-container {
+        margin-top: 10px;
+    }
+
+    table.trr-table {
+        width: 100%;
+        border: 1px solid #B0B0B0;
+        border-spacing: 0px;
+        border-collapse:collapse;
+        table-layout: fixed;
+    }
+    
+    th.trr-Heading {
+    	background-color: #D0D0D0;
+    	border: 1px solid #B0B0B0;
+		padding: 5px 5px;
+		color: #555;
+		font-weight: bold;
+        word-wrap:break-word;
+    }
+    
+    td.trr-td {
+    	border: 1px solid #B0B0B0;
+		padding: 5px 5px;
+		color: #555;
+        //word-wrap:break-word;
+        overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+    }
+
+    th.trr-table-gift-amount {
+    	width: 7em;
+    }
+
+    th.trr-table-recruited {
+    	width: 5.3em;
+    }
+
+    th.trr-table-monetary-amount {
+	    width: 7em;
+    }
+
+    th.trr-table-number-amount {
+        width: 5em;
+    }
+
+    th.trr-table-participant-amount {
+        width: 7em;
+    }
+
+    a.trr-table-row-link{
+    	text-decoration:none;
+    	color: #0979cb;
+        word-wrap:break-word;
+    }
+    
+    .left-align{
+    	text-align: left;
+    }
+
+    div.trr-table-more {
+    	margin-bottom: 20px;
+	   	margin-left: 6px;
+	   	margin-top: 5px
+    }
+
+    div#national_company_page_table_div {
+    	margin-top: 0px;
+    }
+    
+/* ********************************************************** */
+/* Company List Page                                          */
+/* ********************************************************** */
+	#company_list_page div.indicator-list-row {
+		float: left;
+		width: 100%
+	}
+	
+	#company_list_page div.list-name-container {
+		float: left;
+		width: 58%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	#company_list_page div.list-value-container {
+		float: right;
+		width: 42%;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	
+	#company_list_page div.indicator-list-row + div.indicator-list-row {
+		margin-top: 10px;
+	}
+
+	#company_list_page h2 {
+		font-size: 1.2em;
+		margin: 0;
+	}
+	
+	#company_list_page a.donation-link {
+		display: none;
+	}
+	
+	div#non_mobile_company_list {
+		display: block;
+	}
+	
+	div#mobile_company_list {
+		display: none;
+	}
+
+	span.display-name {
+		overflow: hidden;
+		white-space: nowrap;
+		word-wrap: break-word;
+		text-overflow: ellipsis;
+	}
+
+	div.company-list-table-container {
+		clear: both;
+	}
+
+
+/* ********************************************************** */
+/* Local Company Page                                         */
+/* ********************************************************** */
+	div.company-info-container {
+	    color: #555555;
+	    border: 1px solid #EAEAEA;
+	}
+	
+	div.company-row-name {
+		float: left;
+	}
+
+	div.company-team-list-team-name {
+		margin: 10px 5px 10px 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	div.company-team-list-team-name img.badge-icon-small {
+		margin: 0 5px 5px 0;
+	}
+
+	div.company-row-form-team {
+		float: right;
+		margin: 5px 5px 5px 0px;
+	}
+	
+	div.company-team-list-team-info {
+		float : left;
+		width: 70%;
+	}
+
+	div.company-team-list-join-team {
+		float : left;
+		width: 30%;
+	}
+
+	div.responsive a.company-list-join-team-button {
+		border-radius: 3px;
+		display: block;
+		float: none;
+		margin: 15px 10px 10px 0px;		
+		text-align: center;
+		padding: 10px 0px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		cursor: pointer;
+		overflow: visible;
+]		text-decoration: none;
+		zoom: 1;
+	}
+
+	div.company-list-table-title{
+		color: #555;
+		font-size: 1.2em;
+		margin: 0px 0px 5px 0px;
+		float: left;
+	}
+
+	div.company-list-team-captain-title{
+		margin: 0px 5px 10px 10px;
+		float: left;
+	}
+
+	div.company-list-team-captain-title a {
+		float: left;
+	} 
+
+	#local_company_page div.donation-link-container{
+		display: none;
+	}
+
+	div.company-team-list-captain-name {
+		float: left;
+		margin-right: 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		width: 230px;
+	}
+
+	div.company-team-list-members {
+		float: left;
+		margin: 0 0 15px 10px;
+	}
+	
+	div.top_participants_title_container {
+		color: #555;
+		font-size: 1.2em;
+		font-weight: bold;
+		margin: 20px 0px 5px 0;
+	}
+
+	div.company-page-main-content-component {
+		margin-top: 30px
+	}
+
+	div#local_company_page div.list-name-container {
+		width: 55%;
+		float: left;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;	
+		margin-bottom: 5px;
+	}
+	
+	div#local_company_page div.list-value-container {
+		width: 45%;
+		float: left;
+		white-space: nowrap;
+		overflow: hidden;	
+		margin-bottom: 5px;
+		text-align: right;
+	}
+	
+	div.company-list-table-container {
+		border: 1px solid #dad7d0;
+		padding: 15px 10px 10px 10px;
+		background-color: #f8f8f8;
+	}
+	
+	div.team-list-registartion-closed-container {
+		margin-top: 30px;
+	}
+	
+/* ********************************************************** */
+/* Top Participant List Page                                  */
+/* ********************************************************** */
+
+div#top_participant_list_container {
+	background: #fafafa;
+	border-top: 3px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	padding: 16px 10px;
+	margin: 0px;
+}
+
+div.top-participant-list-row {
+	padding: 15px 10px;
+	position: relative;
+	min-height: 86px;
+}
+
+div.top-participant-list-name {
+	font-size: 1.5em;
+	color: #3596D4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 68%;
+	float: left;
+}
+
+div.top-participant-list-team {
+	clear: both;
+	float: left;
+	font-size: 1em;
+	color: #3596D4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 68%;
+	margin-top: 15px;
+}
+
+div.top-participant-list-amount-container {
+	clear: both;
+	float: left;
+}
+
+div.top-participant-list-amount-container div.top-participant-list-amount-label {
+	font-size: 1em;
+	color: #7a7a7a;
+	line-height: 32px;
+	float: left;
+	padding-right: 5px;
+}
+
+div.top-participant-list-amount-container div.top-participant-list-amount {
+	float: right;
+	font-size: 1.5em;
+	color: #7a7a7a;
+	line-height: 32px;
+}
+
+div.top-participant-list-row a.participant-find-donate-link {
+	text-align: center;
+	font-size: 1.1em;
+	float: right;
+	cursor: pointer;
+	color: #2F6601;
+	text-decoration: none;
+	
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2E5C5', endColorstr='#B8D39C');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D2E5C5', endColorstr='#B8D39C')";
+    background-image: -ms-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: -webkit-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: -moz-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: -o-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: linear-gradient(top, #D2E5C5, #B8D39C);
+	
+	border: 1px solid #A7D08E;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px 7px;
+	min-width: 132px;
+	overflow: visible;
+}
+
+div.top-participant-list-row a.participant-find-donate-link:hover {
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B8D39C', endColorstr='#D2E5C5');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#B8D39C', endColorstr='#D2E5C5')";
+    background-image: -ms-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: -webkit-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: -moz-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: -o-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: linear-gradient(top, #B8D39C, #D2E5C5);
+}
+
+div.top-participant-list-row a.participant-find-donate-link:active {
+	background: #A7D08E;
+	border-color: #A7D08E;
+	color: #ffffff;
+}
+
+div.top-participant-list-two-buttons-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -43px;
+	right: 10px;
+}
+
+div.top-participant-list-donate-only-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -19px;
+	right: 10px;
+}
+
+div.top-participant-list-ecommerce-only-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	right: 10px;
+}
+
+div.top-participant-list-donate {
+	float: right;
+}
+
+div.top-participant-list-ecommerce {
+	clear: both;
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+
+div.top-participant-list-two-buttons-container div.top-participant-list-ecommerce {
+	margin-top: 32px;
+}
+
+/* ********************************************************** */
+/* Team List Page/Top Team List Page                          */
+/* ********************************************************** */
+
+div#team_list_container,
+div#top_team_list_container {
+	background: #fafafa;
+	border-top: 3px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	padding: 16px 10px;
+	margin: 0px;
+	min-height: 16px;
+}
+
+div.team-list-form-new-team {
+	float: right;
+	margin-bottom: 16px;
+}
+
+div.team-list-row {
+	padding: 15px 10px;
+	min-height: 88px;
+	position: relative;
+	clear: both;
+}
+
+div.team-list-name {
+	font-size: 1.5em;
+	color: #3596D4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 70%;
+	float: left;
+}
+
+div.team-list-captain {
+	clear: left;
+	float: left;
+	padding: 10px 20px 4px 0px;
+	font-size: 1em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 50%
+}
+
+div.team-list-participants {
+	float: left;
+	font-size: 1em;
+	padding: 10px 0px 4px 0px;
+}
+
+div.team-list-donations {
+	clear: left;
+	float: left;
+	font-size: 1em;
+	padding-bottom: 4px;
+}
+
+div.team-list-donate-now a.participant-find-team-donate-link {
+	text-align: center;
+	font-size: 1.1em;
+	float:right;
+	cursor: pointer;
+	color: #2F6601;
+	text-decoration: none;
+	
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2E5C5', endColorstr='#B8D39C');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D2E5C5', endColorstr='#B8D39C')";
+    background-image: -ms-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: -webkit-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: -moz-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: -o-linear-gradient(top, #D2E5C5, #B8D39C);
+    background-image: linear-gradient(top, #D2E5C5, #B8D39C);
+	
+	border: 1px solid #A7D08E;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px 7px;
+	min-width: 132px;
+	overflow: visible;
+}
+
+div.team-list-donate-now a.participant-find-team-donate-link:hover {
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B8D39C', endColorstr='#D2E5C5');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#B8D39C', endColorstr='#D2E5C5')";
+    background-image: -ms-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: -webkit-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: -moz-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: -o-linear-gradient(top, #B8D39C, #D2E5C5);
+    background-image: linear-gradient(top, #B8D39C, #D2E5C5);
+}
+
+div.team-list-donate-now a.participant-find-team-donate-link:active {
+	background: #A7D08E;
+	border-color: #A7D08E;
+	color: #ffffff;
+}
+
+div.team-list-join-container a.team-list-join {
+	text-align: center;
+	font-size: 1.1em;
+	clear: both;
+	float: right;
+	cursor: pointer;
+	color: #0178ca;
+	text-decoration: none;
+	
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f7f7', endColorstr='#bbdaef');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f7f7', endColorstr='#bbdaef')";
+    background-image: -ms-linear-gradient(top, #f6f7f7, #bbdaef);
+    background-image: -webkit-linear-gradient(top, #f6f7f7, #bbdaef);
+    background-image: -moz-linear-gradient(top, #f6f7f7, #bbdaef);
+    background-image: -o-linear-gradient(top, #f6f7f7, #bbdaef);
+    background-image: linear-gradient(top, #f6f7f7, #bbdaef);
+	
+	border: 1px solid #b5cbd9;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	min-width: 132px;
+	height: 37px;
+	line-height: 37px;
+	padding: 0px 7px;
+	overflow: visible;
+}
+
+div.team-list-join-container a.team-list-join:hover {
+	/* background */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbdaef', endColorstr='#f6f7f7');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbdaef', endColorstr='#f6f7f7')";
+    background-image: -ms-linear-gradient(top, #bbdaef, #f6f7f7);
+    background-image: -webkit-linear-gradient(top, #bbdaef, #f6f7f7);
+    background-image: -moz-linear-gradient(top, #bbdaef, #f6f7f7);
+    background-image: -o-linear-gradient(top, #bbdaef, #f6f7f7);
+    background-image: linear-gradient(top, #bbdaef, #f6f7f7);
+}
+
+div.team-list-join-container a.team-list-join:active {
+	background: #b5cbd9;
+	border-color: #b5cbd9;
+	color: #ffffff;
+}
+
+div.team-list-one-button-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -19px;
+	right: 10px;
+}
+
+div.team-list-one-button-container  div.team-list-message {
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+}
+
+div.team-list-two-button-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -44px;
+	right: 10px;
+}
+
+div.team-list-two-button-container div.team-list-message {
+	clear: both;
+	margin-top: 10px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+}
+
+div.team-list-two-button-container div.team-list-join-container a.team-list-join {
+	margin-top: 10px;
+}
+
+span.display-name {
+    display: block;
+}
+
+/* ********************************************************** */
+/* Full Donor List Page                                       */
+/* ********************************************************** */
+
+div#full_donor_list_header {
+    margin: 0 auto;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+h2#full_donor_title {
+	margin: 0;
+}
+
+div#full_donor_list_container {
+	background: #fafafa;
+	border-top: 3px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	padding: 16px 10px;
+	min-height: 16px;
+	margin: 10px;
+	overflow: hidden;
+}
+
+div#full_donor_list_container .list-component-paginator {
+	margin: 10px 0px 10px 0px;
+}
+
+div#full_donor_list_container #filter_text {
+	margin: 2px 2px 10px 0px;
+	height: 15px;
+}
+
+div#full_donor_list_container #filter_search {
+	margin-top: 2px;
+	height: 27px;
+	width: 67px;
+}
+
+div#full_donor_list_container div.list-component-row {
+	padding: 10px;
+}
+
+div#full_donor_list_container div.list-component-row div[id$='_0'] {
+	padding-bottom: 0px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+div#full_donor_list_container div.list-component-row div[id$='_0'] span.list-component-cell-title-text {
+	display: none;
+}
+
+
+
+/* *********************************************************** */
+/* TeamRaiser Ecommerce Entry Page                             */
+/* *********************************************************** */
+
+div#ecommerceEntryExplicit,
+div#ecommerceSearchExplicit,
+div#ecommerceSearchOptions,
+div#ecommerceSearchResult {
+    margin: 25px 0px;
+}
+
+div#ecommerceSearch div#participantSearchRow,
+div#ecommerceSearch div#teamSearchRow,
+div#ecommerceSearch div#fnameSearchColumn,
+div#ecommerceSearch div#lnameSearchColumn,
+div#ecommerceSearch div#snameSearchColumn,
+div#ecommerceSearch input#fr_find_search {
+    display: inline-block;
+}
+
+div#ecommerceSearch input#searchFirstName,
+div#ecommerceSearch input#searchLastName,
+div#ecommerceSearch input#searchScreenname,
+div#ecommerceSearch input#searchTeam {
+    display: block;
+}
+
+div#ecommerceSearch input#fr_find_search {
+    vertical-align: bottom;
+}
+
+div#ecommerceSearchResult .list-component-paginator {
+    margin: 15px 0;
+}
+
+div#ecommerceSearchResult .list-component-paginator-records-text {
+    margin-right: 3em;
+}
+
+div#ecommerceSearchResult .list-component-paginator-records-text,
+div#ecommerceSearchResult .list-component-paginator-link-container {
+    display: inline-block;
+}
+
+div#ecommerceSearchResult .list-component-row.list-row {
+    margin: 10px 0px;
+    padding: 10px;
+    padding-right: 33%;
+    position: relative;
+    min-height: 85px;
+}
+
+div#ecommerceSearchResult div.list-component-cell {
+    padding: 5px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+div#ecommerceSearchResult span.list-component-cell-title-text {
+    font-weight: bold;
+    display: block;
+}
+
+div#ecommerceSearchResult div.list-component-cell-column-donate .list-component-cell-title-text,
+div#ecommerceSearchResult div.list-component-cell-column-team-search-team-name span.list-component-cell-title-text,
+div#ecommerceSearchResult div.list-component-cell-column-participant-name span.list-component-cell-title-text {
+    display: none;
+}
+
+div#ecommerceSearchResult div.list-component-cell-column-donate {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 15em;
+}
+
+div#ecommerceSearchResult div.list-component-cell-column-donate p {
+    padding: 0px;
+    margin: 0px;
+}
+
+div#ecommerceSearchResult div.list-component-cell-column-donate a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+div#ecommerceSearchResult div.list-component-cell-column-team-search-team-name,
+div#ecommerceSearchResult div.list-component-cell-column-participant-name {
+        display: block;
+}
+
+div#ecommerceSearchResult div.list-component-cell-column-team-search-team-name span.list-component-cell-data-text,
+div#ecommerceSearchResult div.list-component-cell-column-participant-name span.list-component-cell-data-text {
+    font-size: 150%;
+}
+
+/*green buttons*/
+div#ecommerceSearchResult div.list-component-cell-column-donate .list-component-cell-data-text a,
+div.responsive input.primary,
+div.responsive button.primary {
+    background-color: #5AAC46;
+    background-image: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px; /*CSS3, the box won't curve in older browsers*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 15px;
+    min-width: 0;
+}
+
+/*blue buttons*/
+div.responsive input.secondary,
+div.responsive button.secondary {
+    background-color: #4887C3;
+    background-image: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px; /*CSS3, the box won't curve in older browsers*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 15px;
+    min-width: 0;
+}
+
+
+/* ********************************************************** */
+/* Media Query Overrides                                      */
+/* ********************************************************** */
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mobile div.tr-page-container div.main-content {
+        width: 436px;
+    }
+    .mobile div#full_donor_list_container {
+        width: 670px;
+    }
+    .mobile div.tr-page-container div#team_page_main_content,
+    .mobile div.tr-page-container div.tr-page-main-content {
+        width: 416px;
+    }
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-company-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-captain-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-tr-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-date  {
+        width: 220px;
+    }
+    
+    .mobile div.blog-reply-body-container .blog-reply-body {
+		width: 400px;
+		height: 300px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_0'] div.natl-co-search-name-hasbutton {
+		width: 66%;
+	}
+	
+	.mobile div.top-participant-list-name,
+	.mobile div.top-participant-list-team {
+		width: 57%
+	}
+	
+	.mobile	div.responsive a.company-list-join-team-button {
+		margin-top: 28px;
+	}
+	
+	.mobile div.company-team-list-captain-name {
+		width: 280px;
+	}
+	
+	.mobile div.company-list-table-container {
+		padding: 15px 5px 5px 5px;
+	}
+	
+	.mobile div.team-list-name {
+		width: 58%;
+	}
+	
+	.mobile div.team-list-captain {
+		max-width: 58%
+	}
+	
+	.mobile div.team-list-participants {
+		clear: left;
+		padding-top: 0px;
+	}
+}
+
+/*      Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+    .mobile div.tr-page-container div.side-bar,
+     .mobile div.tr-page-container div.main-content,
+     .mobile div.tr-page-container div#team_page_main_content,
+     .mobile div.tr-page-container div.tr-page-main-content,
+     .mobile div#full_donor_list_container {
+        float: none;
+        width: auto;
+    }
+
+    .mobile .badge-icon-small {
+        display: none;
+    }
+
+    .mobile div.tr-page-container #entry_page_custom_html {
+        padding: 10px;
+        max-height: 100px;
+        overflow: hidden;
+    }
+    
+    .mobile div.tr-page-container #entry_page_custom_html.expand {
+        max-height: none;
+    }
+    
+    .mobile div.tr-page-container #entry_page_custom_html img {
+        display: none !important;
+    }
+    
+    .mobile div.tr-page-container div.view-content-links {
+        padding: 10px;
+    }
+    
+    .mobile .mobile-hidden {
+        display: block;
+    }
+    
+    .mobile #view_less_link {
+        display: none;
+    }
+    
+    .mobile #search_part_team div.ui-tabs-panel input {
+        width: 145px;
+    }
+    
+    .mobile div.team-honor-list-name {
+	    width: 55%;
+	}
+	
+	.mobile div.team-honor-list-value {
+		width: 45%;
+	}
+    
+    .mobile div#find_participant li {
+        width: 78px;
+    }
+    
+    .mobile div#find_participant select {
+        width: 162px;
+    }
+    
+    .mobile div#find_participant div#search_part_team {
+        width: inherit;
+        margin: 5px;
+    }
+
+    .mobile div#find_participant div.participant-find-search-results {
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .mobile div#find_participant div.list-component-cell {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-captain-name,
+    .moblie div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-tr-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-date 
+    {
+        width: 100%;
+        display: block
+    }
+    
+    .mobile div#find_participant div.list-component-cell.list-component-cell-column-team-name span.list-component-cell-title-text,
+    .mobile div#find_participant div.list-component-cell.list-component-cell-column-company-name span.list-component-cell-title-text,
+    .mobile div#find_participant div.list-component-cell.list-component-cell-column-captain-name span.list-component-cell-title-text,
+    .mobile div#find_participant div.list-component-cell.list-component-cell-column-tr-name span.list-component-cell-title-text,
+    .mobile div#find_participant div.list-component-cell.list-component-cell-column-date span.list-component-cell-title-text {
+        font-size: .8em;
+    } 
+    
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-donate {
+        width: 100%;
+        float: none;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .mobile div#team_image {
+        display: none;
+    }
+
+    .mobile div.tr-status-indicator-container{
+        margin-top: 30px;
+    }
+
+    .mobile div.mobile-donate {
+        display: block;
+	}
+
+    .mobile div.non-mobile-donate-button-container {
+        display: none;
+    }
+    
+    .mobile div.blog-reply-title-container .blog-reply-title {
+		width: 216px;
+	}
+    
+    .mobile div.blog-reply-body-container .blog-reply-body {
+		width: 216px;
+		height: 300px;
+	}
+    
+    .mobile div#personal_page_image_div {
+        display: none;
+    }
+    
+    .mobile div#personal_page_sidebar {
+        padding-top: 0;
+    }
+
+    .mobile div#national_company_logo_div {
+    	display: none;
+    }
+
+    .mobile div#national_company_page_table_div {
+    	margin-top: 20px;
+    }
+
+    .mobile .trr-table-event-name,
+    .mobile .trr-table-recruited,
+    .mobile .trr-company-list-teams,
+    .mobile .trr-company-list-participants {
+    	display: none;
+    }
+
+    .mobile div.national-events-search-container h2.cstmTitle {
+		margin: 20px 5px 20px 5px;
+	}
+	
+	.mobile div.natl-co-search-container {
+		margin: 20px 5px 20px 5px;
+	}
+	
+	.mobile div.natl-co-event-list-wrapper {
+		margin: 20px 5px 20px 5px;
+		clear:both;
+	}
+	
+	.mobile div.natl-co-search-buttons-container {
+		float: left;
+		width: 242px;
+	}
+	
+	.mobile div.natl-co-search-buttons-container input.natl-co-search-button {
+		width: 232px;
+	}
+	
+	.mobile div.natl-co-search-buttons-container input {
+		display: block;
+		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row {
+		position: relative;
+		height: 158px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_0'] div.natl-co-search-name-hasbutton {
+		width: 100%;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_1'] {
+		position: absolute;
+		top: 136px;
+		margin-top: 0px;
+		width: 198px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-cell {
+		padding: 5px 0px 5px 0px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_2'],
+	.mobile div.national-events-search-container div.list-component-row div[id$='_3'] {
+		padding: 5px 0px 5px 0px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_2'] span.list-component-cell-data-text,
+	.mobile div.national-events-search-container div.list-component-row div[id$='_3'] span.list-component-cell-data-text {
+		display: block;
+	}	
+
+	.mobile div.list-component-container h2.cstmTitle {
+    	margin: 10px 10px 10px 10px;
+    }
+
+	.mobile div.list-component-container div.filter-search-container {
+    	margin: 10px 10px 0px 10px;
+    }
+
+    .mobile div.list-component-container .list-component-paginator {
+    	margin: 10px 10px 10px 10px;
+    }
+
+    .mobile div.list-component-container div.list-component-body {
+    	margin: 0px 10px 0px 10px;
+    }
+
+	.mobile div.national-top-events-container div.list-component-row {
+        height: 130px;
+    }
+
+    .mobile div.national-top-events-container div.list-component-cell {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .mobile div.national-top-events-container div.list-component-row div[id$='_1'] {
+        margin-top: 0px;
+        height: 50px;
+        left: 10px;
+        right: auto;
+    }
+
+    .mobile div.national-top-events-container div.list-component-row div[id$='_1'] span.list-component-cell-title-text {
+        float: none;
+    	margin: 0px;
+    }
+
+    .mobile div.national-top-events-container div.list-component-row div[id$='_1'] span.list-component-cell-data-text {
+        display: block;
+    }
+
+    .mobile div.national-top-events-container div.list-component-row div[id$='_2'] {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .mobile div.national-top-parts-container div.list-component-row {
+        height: 180px;
+    }
+
+    .mobile div.national-top-parts-container div.list-component-cell {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .mobile div.national-top-parts-container div.list-component-row div[id$='_1'] {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .mobile div.national-top-parts-container div.list-component-row div[id$='_2'] {
+        margin-top: 0px;
+        height: 50px;
+        left: 10px;
+        right: auto;
+        position: initial;
+    }
+
+    .mobile div.national-top-parts-container div.list-component-row div[id$='_2'] span.list-component-cell-title-text {
+        float: none;
+        margin: 0px;
+    }
+
+    .mobile div.national-top-parts-container div.list-component-row div[id$='_2'] span.list-component-cell-data-text {
+        display: block;
+        float: left;
+    }
+
+    .mobile div#national_top_teams_responsive div.list-component-row {
+        height: 158px;
+    }
+
+    .mobile div#national_top_teams_responsive div.list-component-cell {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .mobile div#national_top_teams_responsive div.list-component-row div[id$='_1'] {
+        padding: 5px 0px 5px 0px;
+    }
+    .mobile div#national_top_teams_responsive div.list-component-row div[id$='_2'] {
+        margin-top: 0px;
+        height: 50px;
+        left: 10px;
+        right: auto;
+    }
+
+    .mobile div#national_top_teams_responsive div.list-component-row div[id$='_2']  span.list-component-cell-title-text {
+        float: none;
+        margin: 0px;
+    }
+
+    .mobile div#national_top_teams_responsive div.list-component-row div[id$='_2']  span.list-component-cell-data-text {
+        display: block;
+    }
+
+	.mobile div#non_mobile_company_list{
+		display: none;
+	}
+
+	.mobile div#mobile_company_list {
+		display: block;
+	}
+
+	.mobile div.company-page-image {
+		display: none;
+	}
+
+	.mobile div.company-team-list-join-team{
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		float: left;
+	}
+	
+	.mobile div.top-participant-list-name,
+	.mobile div.top-participant-list-team {
+		width: 100%
+	}
+	
+	.mobile div.responsive a.company-list-join-team-button{
+		margin: 0px 10px 10px 10px;
+	}
+	
+	.mobile div.company-team-list-team-info {
+		width: 100%;
+	}
+	
+	.mobile div#company_page_tally_container {
+		margin-top: 20px;
+	}
+	
+	.mobile div.company-team-list-captain-name {
+		width: 223px;
+	}
+	
+	.mobile div.company-list-table-container {
+		padding: 15px 5px 5px 5px;
+	}
+	
+	.mobile div.company-list-table-title {
+		margin-right: 20px;
+		margin-bottom: 0px;
+	}
+	.mobile div.company-row-form-team {
+		float: left;
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	.mobile div.team-list-name {
+		width: 100%;
+	}
+	
+	.mobile div.team-list-captain {
+		max-width: 100%
+	}
+	
+	.mobile div.team-list-participants {
+		clear: left;
+		padding-top: 0px;
+	}
+	
+	.mobile div.team-list-donations {
+		margin-bottom: 10px;
+	}
+	
+	.mobile div.team-list-one-button-container {
+		position: static;
+		top: 50%;
+	}
+	
+	.mobile div.team-list-one-button-container div.team-list-join-container a {
+		width: 172px;
+	}
+	
+	.mobile div.team-list-two-button-container {
+		position: static;
+		top: 50%;
+		margin-top: 10px;
+	}
+	
+	.mobile div.team-list-two-button-container a {
+		width: 172px;
+	}
+	
+	.mobile div.top-participant-list-team {
+		margin-bottom: 15px;
+	}
+	
+	.mobile div.top-participant-list-donate a{
+		width: 172px;
+	}
+	
+	.mobile div.top-participant-list-two-buttons-container {
+		position: static;
+	}
+	
+	.mobile div.top-participant-list-two-buttons-container div.top-participant-list-ecommerce {
+		margin-top: 10px;
+	}
+	
+	.mobile div.top-participant-list-donate-only-container {
+		position: static;
+		margin-top: 0px;
+	}
+	
+	.mobile div.top-participant-list-ecommerce-only-container {
+		position: static;
+		margin-top: 0px;
+	}
+	
+	.mobile div.team-list-registartion-closed-container {
+		margin: 0px 0px 10px 10px;
+	}
+
+    .mobile div.campaign-banner-container {
+        display: none;
+    }
+    
+    .mobile div.mobile-view-description {
+		height: 127px;
+		overflow: hidden;
+	}
+
+	.mobile div#full_donor_list_container #filter_text {
+		width: 125px;
+	}
+
+	.mobile div#full_donor_list_container #filter_search {
+    	width: 62px;
+    }
+
+    .mobile div#ecommerceSearchResult div.list-component-cell {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile div#ecommerceSearch div#participantSearchRow,
+    .mobile div#ecommerceSearch div#teamSearchRow,
+    .mobile div#ecommerceSearch div#fnameSearchColumn,
+    .mobile div#ecommerceSearch div#lnameSearchColumn,
+    .mobile div#ecommerceSearch div#snameSearchColumn,
+    .mobile div#ecommerceSearch input#fr_find_search {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .mobile input#fr_ecommerce_next_button,
+    .mobile input#fr_ecommerce_search_next_button,
+    .mobile div#ecommerceSearch div#teamSearchRow input,
+    .mobile div#ecommerceSearch div#fnameSearchColumn input,
+    .mobile div#ecommerceSearch div#lnameSearchColumn input,
+    .mobile div#ecommerceSearch div#snameSearchColumn input {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .mobile div#ecommerceSearchResult div.list-component-cell-column-donate {
+        position: absolute;
+        top: initial;
+        bottom: 5px;
+        float: none;
+        width: 88%;
+    }
+
+    .mobile div#ecommerceSearchResult div.list-component-cell-column-donate a {
+        display: block;
+    }
+
+    .mobile div#ecommerceSearchResult .list-component-row.list-row {
+        padding-bottom: 105px;
+    }
+
+}
+
+
+
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .mobile div.team-honor-list-name {
+	    width: 65%;
+	}
+	
+	.mobile div.team-honor-list-value {
+		width: 35%;
+	}
+    
+    .mobile #search_part_team div.ui-tabs-panel input {
+        width: 330px;
+    }
+    
+    .mobile div#find_participant li {
+        width: inherit;
+    }
+    
+    .mobile div#find_participant div#search_part_team {
+        margin: 7px;
+    }
+    
+    .mobile div#find_participant div.participant-find-search-results {
+        padding: 10px;
+        margin: 7px;
+    }
+
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-participant-name,
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-team-search-team-name {
+        width: 200px;
+        float: left;
+    }
+    
+    .mobile div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-donate {
+        width: inherit;
+        margin-top: 5px;
+    }
+    
+    .mobile div#find_participant select {
+        width: 346px;
+    }
+
+    .mobile div#team_image {
+        display: none;
+    }
+
+    .mobile div.tr-status-indicator-container{
+        margin-top: 30px;
+    }
+    
+    .mobile div.blog-reply-title-container .blog-reply-title {
+		width: 344px;
+	}
+    
+    .mobile div.blog-reply-body-container .blog-reply-body {
+		width: 400px;
+		height: 300px;
+	}
+	
+	.mobile div.national-events-search-container h2.cstmTitle {
+		margin: 20px 10px 20px 10px;
+	}
+	
+	.mobile div.natl-co-search-container {
+		margin: 20px 10px 10px 10px;
+	}
+	
+	.mobile div.natl-co-event-list-wrapper {
+		margin: 20px 10px 20px 10px;
+		clear: both;
+	}
+	
+	.mobile div.natl-co-search-buttons-container {
+		float: left;
+		width: 416px;
+	}
+	
+	.mobile div.natl-co-search-buttons-container input.natl-co-search-button {
+		width: 240px;
+	}
+	
+	.mobile div.natl-co-search-buttons-container input {
+		display: block;
+		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row {
+		position: relative;
+		height: 67px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_0'] div.natl-co-search-name-hasbutton {
+		width: 54%;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_1'] {
+		width: 148px;
+		margin-top: -23px;
+		top: 50%;
+		right: 10px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_2'],
+	.mobile div.national-events-search-container div.list-component-row div[id$='_3'] {
+		clear: both;
+		padding: 0px 5px 0px 5px;
+	}
+	
+	.mobile div.national-events-search-container div.list-component-row div[id$='_2'] span.list-component-cell-data-text,
+	.mobile div.national-events-search-container div.list-component-row div[id$='_3'] span.list-component-cell-data-text {
+		display: inline;
+	}
+	.mobile div.company-team-list-join-team {
+		width: 30%;
+		float: right;
+	}
+	.mobile div.company-team-list-team-info {
+		width: 70%;
+	}
+	.mobile div.responsive a.company-list-join-team-button {
+		margin: 28px 10px 10px 0px;
+	}
+	
+	.mobile div.top-participant-list-name,
+	.mobile div.top-participant-list-team {
+		width: 57%
+	}
+	
+	.mobile div.company-team-list-captain-name {
+		width: 280px;
+	}
+	
+	.mobile div.company-list-table-container {
+		padding: 15px 5px 5px 5px;
+	}
+	
+	.mobile div.team-list-name {
+		width: 58%;
+	}
+	
+	.mobile div.team-list-captain {
+		max-width: 58%
+	}
+	
+	.mobile div.team-list-one-button-container {
+		position: absolute;
+		top: 50%;
+		margin-top: -19px;
+	}
+	
+	.mobile div.team-list-one-button-container div.team-list-join-container a {
+		width: 132px;
+	}
+	
+	.mobile div.team-list-two-button-container {
+		position: absolute;
+		top: 50%;
+		margin-top: -44px;
+	}
+	
+	.mobile div.team-list-two-button-container a {
+		width: 132px;
+	}
+	
+	.mobile div.top-participant-list-team {
+		margin-bottom: 0px;
+	}
+	
+	.mobile div.top-participant-list-donate a {
+		width: 132px;
+	}
+	
+	.mobile div.top-participant-list-two-buttons-container {
+		position: absolute;
+	}
+	
+	.mobile div.top-participant-list-two-buttons-container div.top-participant-list-ecommerce {
+		margin-top: 32px;
+	}
+	
+	.mobile div.top-participant-list-donate-only-container {
+		position: absolute;
+		margin-top: -19px;
+	}
+	
+	.mobile div.top-participant-list-ecommerce-only-container {
+		position: absolute;
+		margin-top: -7px;
+	}
+	
+	.mobile div.company-list-table-title {
+		margin: 0px 0px 5px 0px;
+	}
+	
+	.mobile div.company-row-form-team {
+		float: right;
+		margin: 5px 5px 5px 0px;
+	}
+	
+	.mobile div.team-list-registartion-closed-container {
+		margin-top: 30px;
+	}
+
+	.mobile div#full_donor_list_container #filter_text {
+		width: 304px;
+	}
+
+	.mobile div#full_donor_list_container #filter_search {
+        width: 67px;
+    }
+
+    .mobile div#ecommerceSearchResult div.list-component-cell-column-donate {
+        width: 93%;
+    }
+}

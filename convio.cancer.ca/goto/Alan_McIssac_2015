@@ -1,0 +1,3000 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<base href="http://convio.cancer.ca/site/" />
+<title>
+
+L'Équipe de rêve 2015 du Relais pour la vie: Mr. Alan McIssac- Société canadienne du cancer
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="Keywords" content=" " />
+<meta name="Description" content="Chaque bâton passé lors du Relais pour la vie a un impact dans la lutte contre le cancer." />
+<meta name="Robots" content="index, follow" />
+
+
+<!-- TemplateName=Page_Wrapper_Head_Default.tpt -->
+<!-- $Header: /customer/trunk/ccodev2/site_data/972/00001972/template_sets/default/Page_Wrapper_Head_Default.tpt,2015-08-26 jvestal Workaround for Bug 69440 Exp $ -->
+<!-- A0-A8 are the same arguments that the page wrapper gets, except A9 which is this template: -->
+<!-- A0 = Content, A1 = AppName,	A2 = Security Category ID, A3 = Security Category Abbreviation, A4 = list of pre-loaded images,	A5 = Help Url, A6 = Template Name, A7 = Page Title,	A8 = keyword list -->
+<!-- A9 = application-specific head template rendered with the above arguments, A10 = additional stylesheet customized within the application -->
+<!-- A11 = JavaScript includes as rendered through Page_Wrapper_JS.tpt, A12 = stylesheet includes as rendered through Page_Wrapper_CSS.tpt -->
+<!-- TeamRaiser ID in session data -->
+
+
+<!-- set affiliate for multiple wrappers -->
+
+
+
+
+
+<!-- dynamic dependency loading -->
+<script type="text/javascript" src="../yui3/yui/yui-min.js"></script><noscript>&nbsp;</noscript>
+<script type="text/javascript" src="../js/convio/modules.js?version=2.9"></script><noscript>&nbsp;</noscript>
+<script type="text/javascript">
+	var Y = YUI({base: '../yui3/',
+		insertBefore: 'yui_marker_loader_css', // insert all YUI module css before customstyle so it can be overridden
+		debug: false, 
+		modules: getModules('../', 'convio', false)});
+</script><noscript>&nbsp;</noscript>
+
+
+	<script type="text/javascript" src="http://cdn.gigya.com/JS/gigya.js?services=socialize&APIKey=">
+		{
+			lang: 'fr'
+		}
+	</script>
+
+ 
+
+
+	
+
+	<script type="text/javascript" src="../js/utils.js"></script><noscript>&nbsp;</noscript>
+
+	
+
+	<!-- Following only used in process pages and data form designer pages. -->
+	<script type="text/javascript" src="../js/obs_comp_rollup.js"></script><noscript>&nbsp;</noscript>
+
+
+	
+
+	<link href="../css/themes/default.css" rel="stylesheet" type="text/css" />
+	<link href="../css/themes/alphacube.css" rel="stylesheet" type="text/css"/>
+
+
+<!-- Non-administrative applications -->
+
+	
+
+
+	<link href="../css/UserGlobalStyle.css" rel="stylesheet" type="text/css" />
+
+	
+
+	
+<link href="../css/responsive/ResponsiveBase.css" rel="stylesheet" type="text/css" />
+
+
+<link href="../css/responsive/TRPageResponsive.css" rel="stylesheet" type="text/css" />
+
+
+<link href="../css/TrAchievementBadges.css" rel="stylesheet" type="text/css" />
+
+
+
+	<link href="../css/FriendraiserUserStyle.css" rel="stylesheet" type="text/css" />
+
+
+	
+	<!--  empty link element as a marker so all YUI dynamically loaded css dependecies will be before custom style css -->
+	<link rel="stylesheet" type="text/css" id="yui_marker_loader_css" />
+	<link href="../css/CustomStyle.css" rel="stylesheet" type="text/css" />
+	<link href="../css/CustomWysiwygStyle.css" rel="stylesheet" type="text/css" />
+	
+
+	
+		<script type="text/javascript" src="../js/vScroll.js"></script><noscript>&nbsp;</noscript>
+
+
+
+	
+
+	<!-- Customer overrides for included css and javascript files -->
+	<meta name="CnvHeaderVersion" content="v5.0" />
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0" />
+   	
+		            
+			<meta property="og:image" content="http://convio.cancer.ca/ccs/rfl_natl_2015/img/logo_facebook_fr.jpg"/>
+		
+	    <meta property="og:title" content="Relais pour la vie"/>
+	    <meta property="og:type" content="website"/>
+		<meta property="og:url" content="http://relaispourlavie.ca"/>
+		<meta property="og:description" content="Emparez-vous du bâton. Inscrivez-vous dès aujourd&#8217;hui! #VivreLeRelais"/>
+		            
+			<link rel="image_src" href="http://convio.cancer.ca/ccs/rfl_natl_2015/img/logo_facebook_fr.jpg" />
+		
+	
+
+<!--End Facebook share image link -->
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="../ccs/audience_first/img/favicon.ico">
+
+<style type="text/css">
+	@font-face {
+		font-family: 'Rockwell';
+		src: url('../ccs/rfl_natl_2015/css/fonts/rock.eot');
+		src: url('../ccs/rfl_natl_2015/css/fonts/rock.eot?#iefix') format('embedded-opentype'),
+			url('../ccs/rfl_natl_2015/css/fonts/rock.woff') format('woff'),
+			url('../ccs/rfl_natl_2015/css/fonts/rock.ttf') format('truetype'),
+			url('../ccs/rfl_natl_2015/css/fonts/rock.svg#rock') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Rockwell-Bold';
+		src: url('../ccs/rfl_natl_2015/css/fonts/rockb.eot');
+		src: url('../ccs/rfl_natl_2015/css/fonts/rockb.eot?#iefix') format('embedded-opentype'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rockb.woff') format('woff'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rockb.ttf') format('truetype'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rockb.svg#rockb') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Rockwell-Italic';
+		src: url('../ccs/rfl_natl_2015/css/fonts/rocki.eot');
+		src: url('../ccs/rfl_natl_2015/css/fonts/rocki.eot?#iefix') format('embedded-opentype'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rocki.woff') format('woff'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rocki.ttf') format('truetype'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rocki.svg#rocki') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Rockwell-BoldItalic';
+		src: url('../ccs/rfl_natl_2015/css/fonts/rockbi.eot');
+		src: url('../ccs/rfl_natl_2015/css/fonts/rockbi.eot?#iefix') format('embedded-opentype'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rockbi.woff') format('woff'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rockbi.ttf') format('truetype'),
+			 url('../ccs/rfl_natl_2015/css/fonts/rockbi.svg#rockbi') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'Dax Regular';
+	    src: url('../ccs/rfl_natl_2015/css/fonts/dax-regular.eot');
+	    src: url('../ccs/rfl_natl_2015/css/fonts/dax-regular.eot?#iefix') format('embedded-opentype'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-regular.woff') format('woff'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-regular.ttf') format('truetype'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-regular.svg#dax-mediumregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'Dax Medium';
+	    src: url('../ccs/rfl_natl_2015/css/fonts/dax-medium.eot');
+	    src: url('../ccs/rfl_natl_2015/css/fonts/dax-medium.eot?#iefix') format('embedded-opentype'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-medium.woff') format('woff'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-medium.ttf') format('truetype'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-medium.svg#dax-mediumregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'Dax Bold';
+	    src: url('../ccs/rfl_natl_2015/css/fonts/dax-bold.eot');
+	    src: url('../ccs/rfl_natl_2015/css/fonts/dax-bold.eot?#iefix') format('embedded-opentype'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-bold.woff') format('woff'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-bold.ttf') format('truetype'),
+	         url('../ccs/rfl_natl_2015/css/fonts/dax-bold.svg#dax-mediumregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+
+</style>
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400' rel='stylesheet' type='text/css'>
+
+
+
+<link rel="stylesheet" href="../ccs/rfl_natl_2015/js/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../ccs/rfl_natl_2015/css/slidebars.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../ccs/rfl_natl_2015/css/main.css?test=942"> 
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<!--[if lte IE 9]>
+  <style type="text/css">
+
+	.yui-panel-container {
+		z-index: 8000;
+	}
+
+  </style>
+<![endif]-->
+
+
+<!--[if IE 8]>
+  <style type="text/css">
+    .locator-search-container input, .log-in input[type="text"], .log-in input[type="password"] {
+		padding-top: 23px;
+    }
+    
+    .locator-search-container div.styled select {
+    	padding-top: 23px;
+        }
+    
+    .locator-search-container div.styled select {
+    	padding-bottom: 20px;
+    }
+
+	.grid4-cell {
+		border: 1px solid #e4e4e4;
+	}
+
+    
+  </style>
+<![endif]-->
+
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  -->
+
+<!-- do not load in event manager center -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="../ccs/rfl_natl_2015/js/jquery.fancybox.pack.2.1.5.js"></script> 
+	<script type="text/javascript" src="../ccs/rfl_natl_2015/js/slidebars.min.js"></script>
+
+
+
+
+
+<!-- do not load in event manager center -->
+
+	
+
+<!-- Start registration scripts -->
+<!-- originally from S51:RFL_CAN_NATL_reus_teamraiser_js_css -->
+<!-- Scripts/styles/conditionals for controlling the registration user experience -->
+
+<!-- set trID x19397x = independent var x19397x -->
+
+<!-- confirm trID x19397x -->
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+<!--    <script type="text/javascript">
+jQuery(document).ready(function() {
+    // Add the participant promo code to the Restart link
+    jQuery('a[href*="fr_treform"]').each(function() {
+      var link = jQuery(this).attr('href');
+      jQuery(this).attr('href',link + '&s_promoCode=Participant');
+    });
+});
+</script> -->
+
+<!-- end registration scripts -->
+
+
+
+
+<!--  <script type="text/javascript">
+
+Y.use('jquery-noconflict', function() {
+    jQuery(document).ready(function($){
+        // In a responsive TeamRaiser, on the utype page, if locale is fr_CA
+        // change the text of the login button
+        if (jQuery('#user_type_login_login_button').length > 0) {
+           jQuery('#user_type_login_login_button span').text('Ouvrir une session');
+        }
+    });
+
+});
+
+</script> -->
+
+
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function($){
+    // Script to raise the particpant/team search form higher on the page
+       if (jQuery('#participant_find_search_text').length > 0) {
+           jQuery('#secondrow').css('height','90px');
+           jQuery('h2.tr-page-title').css('padding','0px');
+           jQuery('#content_body').css('min-height','360px');
+       }
+    });
+
+</script>
+
+
+<script type="text/javascript">
+    
+//    Y.use('jquery-ui', function() {
+//        jQuery(document).ready(function($){
+        // Script to blank out search fields on team/personal search page when switching from one tab to the other
+//          if (jQuery('#teamSearchFirstName').length > 0) {
+//               jQuery('#team_search_container, #part_search_container').click(function(){
+//                    jQuery('input.ghost-text').each(function() {
+//                        var curr = jQuery(this).val();
+//                        var ghost = jQuery(this).data('ghost-text');
+//                        if (curr != ghost) {
+//                            jQuery(this).val(ghost);
+//                            jQuery(this).addClass('active');
+//                        }
+//                    });
+//               });
+//           }
+//        });
+//    });
+    
+    </script>
+
+<!--
+ADD THIS CODE TO YOUR RFL WRAPPER TO PREVENT USERS FROM GETTING ACCESS TO THE LUMINARY STORE FROM THE FAVOURITES THE CODE DETECTS IF YOU ARE IN THE ECOMMERCE MODULE AND THEN CHECKS FOR EVENT STATUS, IF SET TO "ACCEPTING GIFT ONLY" YOU GET REDIRECTED TO THE EVENT'S GREETING PAGE.
+
+From Dmitri Wolf - added to this reusable June 26, 2014, JMV
+-->
+
+
+     
+
+
+
+
+
+
+
+
+
+
+<!-- S51:RFL_CAN_NATL_responsive_reus_css -->
+
+<!-- Luminate-specific CSS -->
+
+<style type="text/css">
+
+.Hint{
+	font-family: "Dax Regular",sans-serif;
+	font-style: italic;
+}
+
+
+/* General adjustments for French */
+
+
+
+	.header-container .header {
+		background: url(../ccs/rfl_natl_2015/img/logo_ccs_header_white_fr.png) no-repeat 0 15px;
+	}
+
+	.header-main-nav li {
+		padding: 0;
+	}
+
+	.header-main-nav li a, .header-main-nav li a:link, .header-main-nav li a:visited, #main-nav-logged, .header-main-nav li a:hover, .header-main-nav li a:active, #main-nav-logged:hover, #main-nav-logged:active
+ {
+		/*padding: 0 10px;*/
+		padding: 0 8px;
+		font-size: 17px;
+	}
+	
+	.header-main-nav li a.arrow, #main-nav-logged.arrow, .mobile-logged.arrow {
+		padding-right: 12px;
+	}
+
+/*	.header-main-nav li a, .header-main-nav li a:link, .header-main-nav li a:visited, #main-nav-logged {
+		padding: 0 15px;
+		padding-right: 12px;
+		font-size: 18px;
+	} */
+	
+/*	.header-main-nav li a:hover, .header-main-nav li a:active, #main-nav-logged:hover, #main-nav-logged:active {
+		font-size: 18px;
+	}*/
+
+	.header-sub-nav li a,
+	.header-sub-nav li a:link,
+	.header-sub-nav li a:visited {
+		padding: 0;
+	}
+
+	.sb-slidebar #mobile-nav-about {
+		background-position: 180px 10px;
+	}
+
+	.sb-slidebar #mobile-nav-involved {
+		background-position: 153px 10px;
+	}
+
+	.hero-container {
+		background: url(../ccs/rfl_natl_2015/img/bg_hero_2016_fr.jpg) no-repeat top;
+		background-size:cover;
+	/* background: none;*/
+	}
+
+	.hero-message1 {
+		padding-top: 60px;
+	}
+
+	.hero-button-container {
+			margin-top: 0px;
+	}
+
+	.locator-search-container input.find-button,
+	#volunteerLocations input.find-button {
+		background: url(../ccs/rfl_natl_2015/img/bg_locator_search_arrow_fr.png) no-repeat;
+	}
+	
+	.locator-search-container input.find-button:hover,
+	#volunteerLocations input.find-button:hover {
+		background-image: url(../ccs/rfl_natl_2015/img/bg_locator_search_arrow_hover_fr.png);
+	}
+	
+	.relay-box .corners.home {
+		width: 200px;
+	}
+
+	#my-relay-btn-home a {
+		background-position: 166px;
+	}
+	
+	.relay-box .corners.pc {
+		width: 284px;
+	}
+
+	#my-relay-btn-pc a {
+		background-position: 250px;
+	}
+	
+	.footer-stats-num {
+		font-size: 45px;
+	}
+
+
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*		.header-main-nav li a, .header-main-nav li a:link, .header-main-nav li a:visited, #main-nav-logged {
+			padding: 0 5px;
+			font-size: 15px;
+		}*/
+
+		.header-main-nav li a, .header-main-nav li a:link, .header-main-nav li a:visited, #main-nav-logged, .header-main-nav li a.arrow:hover, #main-nav-logged.arrow:hover {
+		    padding: 0 8px 0 5px;
+		    font-size: 14px;
+		}
+		
+
+		.header-main-nav li a.arrow,
+		#main-nav-logged.arrow, 
+		.mobile-logged.arrow, 
+		.header-main-nav li a.arrow:hover, 
+		#main-nav-logged.arrow:hover {
+			padding-right: 8px;
+		}
+		
+		a.btn-log-in {
+			font-size: 11px;
+			padding: 8px;
+		}
+
+		.footer-stats-num {
+			font-size: 35px;
+		}
+
+	} 
+	
+	@media only screen and (min-width: 767px) and (max-width: 785px) {
+		.header-main-nav li a, .header-main-nav li a:link, .header-main-nav li a:visited, #main-nav-logged, .header-main-nav li a.arrow:hover, #main-nav-logged.arrow:hover {
+			font-size: 12px;
+		}
+		.header-right {width: 84%;}
+		
+		.footer-stats-num {
+			font-size: 35px;
+		}
+
+	}
+
+	@media only screen and (max-width: 767px) {
+		.header-container .header {
+			background-position: center 5px;
+			background-size: 64px 57px;
+			height: 70px;
+		}
+		
+		.hero-container {
+			background: none;
+		}
+
+		.hero-message-mobile {
+			left: 20%;
+		}
+
+		.hero-button-container {
+			margin-top: 0;
+		}
+
+		.locator-search-container input.find-button,
+		#volunteerLocations input.find-button  {
+			background: transparent url(../ccs/rfl_natl_2015/img/bg_locator_search_arrow_mobile_fr.png) no-repeat;
+		}
+	
+		.locator-search-container input.find-button:hover,
+		#volunteerLocations input.find-button:hover {
+			background-image: url(../ccs/rfl_natl_2015/img/bg_locator_search_arrow_mobile_hover_fr.png);
+		}
+		
+		.locator-search-container input {
+			font-size: 11px;
+		}
+
+		.footer-stats-container {
+			height: 90px;
+		}
+
+		.footer-stats-num {
+			font-size: 20px;
+		}
+
+
+	}
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.hero-message-mobile {
+			left: 25%;
+		}
+
+		.hero-message-mobile br {
+			display:none;
+		}
+
+		.footer-stats-container {
+			height: 70px;
+		}
+	}
+
+
+
+
+
+
+
+/* ********** TR Reg styles **/
+
+/*#content_body {
+    padding: 28px 3.265306% 0;
+    width: auto !important;
+}*/
+
+
+.FormLabelText {
+	font-size: 14px;
+}
+
+/* Fixing em font size */
+
+
+
+
+
+	/* Registration process stylesheet */
+
+		/* Global */
+		
+		div.progress-bar-container {
+			display: block;
+		}
+		
+		div.progress-bar-step-current div.progress-bar-step-number-container {
+			background: #f27321;
+		}
+		
+		div#user_type_login_container {
+			border-top: 1px solid #dad7d0; 
+			border-bottom: 1px solid #dad7d0;
+		}
+
+		div.campaign-banner-container {
+			margin: 5px 0;
+			font-size: 32px !important;
+			font-family: 'Rockwell' !important;
+			font-weight: normal !important;
+			color: #f27321 !important;
+			line-height: normal !important;
+		}
+
+		#part_ctr_container, #part_ctr_container_step {
+		   color: #000!important;
+		   font-weight: bold!important;
+		   text-decoration: none!important;
+		}
+
+		/* End Global */
+		
+		/* Step 1 */
+		input[name=fr_co_list] {
+			width: 25px !important;
+		}
+		#fr_co_list {
+			height:28px; width:274px;
+		}
+        #fr_co_list_sel {
+			height:28px !important;
+		}
+
+		
+			<!-- event year is not 2014, do not hide separator -->
+		
+	
+
+        span.team-find-alternate-options-seperator {
+			display:none;
+		}
+			
+		/* End Step 1 */
+		
+		/* Step 2 */
+		#pt_title_container, 
+		#sel_type_container, 
+		#title_container, 
+		span.ObjTitle, 
+		strong.headline, 
+		#contact_hdr_container, 
+		#contact_info_hdr_container, 
+		#password_hdr_container, 
+		.sub-section-header {
+			font-family:"Rockwell"; 
+			font-size:20px; 
+			color:#0079c2; 
+			font-weight: normal;
+		}
+		/* End Step 2 */
+		
+		/* Step 3 */
+		#cons_state {
+			height:28px;
+		}
+		#cons_country, .NetscapeFix select {height:28px; width:310px;}
+		#cons_gender, 
+		#cons_birth_date_MONTH, 
+		#cons_birth_date_DAY, 
+		#cons_birth_date_YEAR {
+			height:28px;
+		}
+		.Hint #privacy_options_hint_container, 
+		.Hint #password_hint_container {
+			/*	font-family: "ff-dax-web-pro",sans-serif;*/
+			font-family: "Dax Regular",sans-serif;
+			font-size:14px;
+		}
+
+		span.survey-question-number {
+			display:none;
+		}
+
+		div#registration_options_page li.input-container label {
+			width: 600px;
+		}
+
+		/* End Step 3 */
+		
+		/* billing page and thank you page */
+
+		#reg_payment_page #billing_info_name div.form-row, 
+		#reg_payment_page #billing_addr_city_row, 
+		#reg_payment_page #billing_addr_state_row, 
+		#reg_payment_page #billing_addr_county_row, 
+		#reg_payment_page #billing_addr_zip_row {
+			vertical-align: top;
+		}
+
+		#billing_title, 
+        #billing_suffix, 
+        #billing_addr_state, 
+        #billing_addr_country {
+        	height: 28px;
+ 		}
+ 
+		#transaction_summary_header, 
+		#registration_summary_header,
+        #payment_cc_container {
+			margin-top: 20px;
+		}
+
+
+/* Participant/Team Search page */
+
+	/*#content_body */ #search_part_team ul {
+		margin-bottom: 0px;
+	}
+	
+	#search_part_team ul li {
+		padding: 3px 5px;
+	}
+
+	div#find_participant div.list-component-body div.list-component-cell.list-component-cell-column-donate {
+    	padding-bottom: 15px;
+    }
+
+/* end Participant/Team Search page */
+	
+
+#htw-wrap {
+    padding: 0;
+}
+#htw {
+    padding: 18px 3.26531%;
+    box-shadow: none;
+    border: none;
+}
+
+div.registration-page-container div.section-body {
+    padding: 0;
+}
+div.part-type-container .part-type-decoration-messages {
+    width: auto;
+}
+div#registration_options_page li.input-container label {
+    width: auto;
+}
+div#registration_options_page div#privacy_opts_container {
+    width: auto;
+}
+#fr_thanks_page #fr_thanks_header_container #waiver_custom_html span#fr_html_container img {
+    max-width: 100%;
+}
+div.responsive div.ErrorMessage.page-error {
+    width: 100%;
+}
+#fr_co_list_sel {
+    max-width: 240px;
+}
+
+#lightbox-login_c {
+    display: none !important;
+}
+
+#team_find_new_team_attributes, #team_find_new_team_company {
+    width: auto;
+}
+#cons_country, #additional_questions_container select {
+    max-width: 240px;
+}
+div#privacy_component_container label, div#gift_notice_optin label, div#email_opt_in_container label, div#postal_mail_opt_in_container label, div#remember_me_container label {
+    display: inline;
+}
+#email_opt_in_container span.input-label p {
+    display: inline;
+}
+div#registration_options_page li.input-container label {
+    display: inline;
+}
+div#fr_thanks_page a#part_ctr_container, div#fr_thanks_page a#part_ctr_container2, a#app_store_badge, a#android_app_badge {
+    float: left;
+    margin: 10px;
+}
+div#fr_thanks_page a#part_ctr_container, div#fr_thanks_page a#part_ctr_container2 {
+    text-align: center;
+}
+div#fr_thanks_page a#part_ctr_container {
+    display: none;
+}
+div#fr_thanks_page a#part_ctr_container2 {
+
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+#transaction_summary_header {
+    clear: both;
+    padding-top: 20px;
+}
+
+span#participant_find_search_text, span#team_find_search_text {
+	background:none!important;
+}
+
+#part_search_container, #team_search_container {
+	font-size:14px;
+}
+
+
+div#search_part_team ul.clearfix:after {
+    clear: left;
+}
+
+
+/* Greeting page */
+
+	
+	
+
+/* End Greeting page */
+
+/* Registration cboices page */
+
+	
+
+/* Registration choices page */
+
+/* responsive buttons */
+
+		div.responsive a.next-step, 
+		div.responsive button.next-step, 
+		div.responsive button.secondary-step, 
+		div#team_find_search_results_container div.list-component-cell-column-join-link a,
+		div#find_participant div.list-component-body div.list-component-cell-column-donate a,
+		div.team-list-donate-now a.participant-find-team-donate-link, 
+		div.team-list-join-container a.team-list-join  {
+			border: 1px solid #fcbb50;
+			background-color: #fcbb50;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbce63', endColorstr='#fcbb50');
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbce63', endColorstr='#fcbb50')";
+			background-image: -ms-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: -webkit-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: -moz-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: -o-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: linear-gradient(top, #fbce63, #fcbb50);
+			color: #333!important;
+			font-weight: bold;
+			text-decoration: none!important;
+		}
+
+		div.responsive a.next-step:hover, 
+		div.responsive button.next-step:hover, 
+		div.responsive button.secondary-step:hover, 
+		div#team_find_search_results_container div.list-component-cell-column-join-link a:hover,
+		div#find_participant div.list-component-body div.list-component-cell-column-donate a:hover,
+		div.team-list-donate-now a.participant-find-team-donate-link:hover,
+		div.team-list-join-container a.team-list-join:hover {
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbb50', endColorstr='#fbce63');
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcbb50', endColorstr='#fbce63')";
+			background-image: -ms-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: -webkit-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: -moz-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: -o-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: linear-gradient(top, #fcbb50, #fbce63);
+		}
+
+		div.responsive a.next-step:active,
+		div.responsive button.next-step:active, 
+		div.responsive button.action-button:active, 
+		div#team_find_search_results_container div.list-component-cell-column-join-link a:active,
+		div#find_participant div.list-component-body div.list-component-cell-column-donate a:active {
+			background: #fcbb50;
+			border-color: #fcbb50;
+		}
+
+		div.responsive button.action-button {
+			border: 1px solid #fcbb50;
+			background-color: #fcbb50;
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbce63', endColorstr='#fcbb50');
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbce63', endColorstr='#fcbb50')";
+			background-image: -ms-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: -webkit-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: -moz-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: -o-linear-gradient(top, #fbce63, #fcbb50);
+			background-image: linear-gradient(top, #fbce63, #fcbb50);
+			color: #333;
+			font-weight: bold;
+		}
+
+		div.responsive button.action-button:hover {
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbb50', endColorstr='#fbce63');
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcbb50', endColorstr='#fbce63')";
+			background-image: -ms-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: -webkit-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: -moz-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: -o-linear-gradient(top, #fcbb50, #fbce63);
+			background-image: linear-gradient(top, #fcbb50, #fbce63);
+		}
+
+		div#find_participant button.search-button /*, #fr_find_search*/ {
+			background: url("../../images/friendraiser/icon_search_button.png") no-repeat top left!important;
+			width: 37px;
+			height: 31px;
+			border: none;
+			float: right;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)"!important;
+		} 
+
+		/* span#participant_find_search_text, span#team_find_search_text {
+                        display:block!important;
+			background: url("../../images/friendraiser/icon_search_button.png") no-repeat top left!important;
+			width: 37px!important;
+			height: 31px!important;
+			border: none!important;
+			float: right!important;
+                        text-indent: -9999px;
+		} */
+
+		#fr_responsive_register_new_participant_container {
+		        white-space: normal!important;
+		        display: block;
+		        width: 205px!important;
+		}
+
+/* end responsive buttons */
+
+
+
+
+
+/* Team List Page */
+
+    
+
+/* Top Five */
+	#top5{
+		/* height:230px;*/
+		width:230px;
+		padding: 0 5px;
+		display:block;
+		float:left;
+	}
+	#top-teams-title, #top-fundraisers-title{
+		display:block;
+
+		float:left;
+		padding:3px 5px;
+		font-size:14px;
+                
+		margin-bottom:3px;
+                
+		cursor: pointer;
+	}
+	#no-swap-top-teams-title{
+		display:block;
+		float:left;
+		padding:3px 5px;
+		font-size:14px;
+		margin-bottom:3px;
+		color:#fff;
+		background-color:#f27321;
+		margin-right:5px;
+	}
+	#top-teams-title{
+		color:#fff;
+		background-color:#f27321;
+		margin-right:5px;
+	}
+	#top-fundraisers-title{
+		color:#f27321;
+		background-color:#fff;
+	}
+	#big-number{
+		float:left;
+      /*	font-family: "ff-dax-web-pro",sans-serif;*/
+        	font-family: "Dax Regular",sans-serif;
+		font-size:30px;
+		color:#f27321;
+		font-weight:900;
+
+		padding-right:5px;
+	}
+	.big-number{
+		float:left;
+      /*	font-family: "ff-dax-web-pro",sans-serif;*/
+        	font-family: "Dax Regular",sans-serif;
+		font-size:30px;
+		color:#f27321;
+		font-weight:900;
+		padding-right:5px;
+	}
+	#see-all-teams a{
+       /*	font-family: "ff-dax-web-pro",sans-serif;*/
+        	font-family: "Dax Regular",sans-serif;
+		color:#f27321;
+		float:left;
+	}
+	#top5 .vScrollList li{
+		display:block;
+		list-style-type:none;
+		clear:left;
+					margin-left: 0px;
+					line-height: normal;
+      /*	font-family: "ff-dax-web-pro",sans-serif;*/
+        	font-family: "Dax Bold",sans-serif;
+/*		font-weight:700;*/
+	}
+	#top5 .vScrollList li a{
+		text-decoration:none !important;
+		color:#0079c2;
+      /*	font-family: "ff-dax-web-pro",sans-serif;*/
+        	font-family: "Dax Bold",sans-serif;
+					font-style: normal;
+					/*font-weight: 700;*/
+					/* float:left; */
+	}
+	#top5 .vScrollList li a:hover {
+		text-decoration:none !important;
+		color:#f27321;
+	}
+
+	.cheerthetop5 h3{
+		padding-top:4px;
+	}
+/* End Top Five */
+
+
+/* FAQ Page */
+	#faq {
+		font-size: 14px;
+	}
+	#faq a, #faq a em, #faq a strong, #faq a strong em, #faq a em strong { 
+		text-decoration: none; 
+	}
+	#accordion {
+		border-bottom: 1px solid #e4e4e4;
+		color: #333;
+	}
+	#accordion h1 { margin: 0; position: relative; }
+	#accordion h1 a, #accordion h1.ui-state-active a, #accordion h1.ui-state-hover a {
+		display: block;
+		background: #fff;
+		border-top: 1px solid #e4e4e4;
+      /*	font-family: "ff-dax-web-pro",sans-serif;*/
+        	font-family: "Dax Regular",sans-serif;
+		padding: 10px 0 10px 40px;
+		color: #F47322;
+		font-size:22px;
+	}
+	#accordion h1 a:active, #accordion h1 a:focus { 
+		outline: none; 
+	}
+	#accordion h2, #accordion h3 { 
+		margin: 1em 0 0.3em; 
+		padding: 0 30px; 
+	}
+	#accordion p { 
+		margin: 0 0 1em; 
+		padding: 0 30px; 
+	}
+	#accordion h2 {
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+	#accordion h3 {
+		color: #0179c5;
+		font-weight: bold;
+        font-size: 16px;
+	}
+	#accordion h3 em, #accordion h3 i {
+		color: #0179c5;
+		font-size: 16px;
+	}
+
+	#accordion p a { color: #0179c5; }
+	#faq-header {
+		font-size: 2.5em;
+		font-family: "Rockwell";
+		font-weight: normal;
+		color: #f47322;
+		padding: 10px;
+		margin: 10px 0;
+	}
+	#faq-paragraph {
+		padding: 0 10px;
+		margin: 10px 0
+	}
+
+	h1.ui-state-default a { 
+		color: #0179C5 !important;
+	}
+
+	.ui-icon {
+		display: block;
+		width: 16px;
+		height: 16px;
+		background: url('../images/faq-arrows.jpg') no-repeat;
+		text-indent: -9999px;
+		overflow: hidden;
+		position: absolute;
+		left: 0.5em;
+		top: 50%;
+		margin-top: -8px;
+	}
+    .arrow-left {
+		background-position: 0 0;
+	}
+	.arrow-down {
+		background-position: 0 -16px;
+	}
+/* End FAQ Page */
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 979px){
+
+    
+      
+    
+
+}
+
+@media all and (max-width: 767px){
+	
+    #progressBar li {
+        width: 12%;
+        padding: 0;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    #progressBar li.selected {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: auto;
+    }
+    
+    
+    
+
+    div#fr_thanks_page a#part_ctr_container {
+        clear: left;
+    }
+    div#fr_thanks_page a#part_ctr_container2 {
+        display: none;
+    }
+    div#fr_thanks_page a#part_ctr_container {
+        display: block;
+    }
+
+	.mobile div.responsive div.form-row, .mobile div.responsive div.form-content{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	
+	.mobile div.non-mobile-donate-button-container {
+		display:block;
+	}
+
+}
+
+@media all and (max-width: 699px){
+    #progressBar li {
+        width: 10%;
+    }
+}
+
+@media all and (max-width: 678px){
+    
+    
+    div.team-list-two-button-container {
+        margin-top: 0;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+}
+
+@media all and (max-width: 599px){
+    div.tr-page-main-content, div#team_page_main_content {
+        width: auto !important;
+        margin: 0;
+        float: none;
+    }
+    div.tr-page-container div.side-bar {
+        float: none;
+        width: auto !important;
+    }
+    #fr_rich_text_container.personal-page-description strong {
+        line-height: 28px;
+        color: #e36f20;
+        font-family: 'Rockwell' !important;
+        font-size: 24px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    div.responsive {
+        color: #000;
+    }
+    #fr_rich_text_container.personal-page-description h1 {
+        font-size: 24px !important;
+        line-height: 28px;
+        color: #e36f20;
+    }
+/*    #content_body {
+        width: auto;
+        padding-left: 23px;
+        padding-right: 23px;
+    } */
+    div#personal_page_menu {
+        width: auto !important;
+    }
+    #frStatus2 div.indicator-title {
+        width: auto !important;
+    }
+    #top5 {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: auto;
+        float: none;
+    }
+    div#team_page_custom_html {
+        float: none;
+    }
+}
+
+
+@media all and (max-width: 568px){
+    div.donation-level-general-ask {
+        display: none;
+    }
+
+    #progressBar li {
+        width: 9%;
+    }
+    #progressBar div.selectedTitle {
+        font-size: 16px;
+    }
+
+    
+    
+
+}
+
+@media all and (max-width: 450px){
+    #employer_street_row input, #billing_addr_street1_row input, #billing_addr_street2_row input, #billing_addr_street3_row input, #billing_addr_country_row input.ui-autocomplete-input, #donor_addr_street1_row input, #donor_addr_street2_row input, #donor_addr_street3_row input, #donor_addr_country_row input.ui-autocomplete-input, #shipping_addr_street1_row input, #shipping_addr_street2_row input, #shipping_addr_street3_row input, #shipping_addr_country_row input.ui-autocomplete-input, #tribute_notify_recip_street1_row input, #tribute_notify_recip_street2_row input, #tribute_notify_recip_street3_row input, #tribute_notify_recip_country_row input.ui-autocomplete-input, #tribute_signature_row input, #tribute_message_closing_row input, div.employer-address-container input#employer_street {
+        width: auto;
+    }
+    #find_participant div.participant-find-search-container {
+        width: auto;
+    }
+}
+
+@media all and (max-width: 425px){
+
+    div.reg-summary-thanks-common-container div.action-button-container {
+        width: 100%;
+    }
+    div.responsive #FriendraiserUserWaiver a.next-step, div.responsive #FriendraiserUserWaiver button.next-step, div.responsive #FriendraiserUserWaiver button.step-button, div.responsive #FriendraiserUserWaiver button.finish-step {
+        float: none;
+        width: 100%;
+    }
+    div.reg-summary-thanks-common-container div.action-button-container .secondary-wrapper {
+        float: none;
+    }
+    div.responsive #FriendraiserUserWaiver a.secondary-step, div.responsive #FriendraiserUserWaiver button.secondary-step, div.responsive #FriendraiserUserWaiver button.next-step {
+        float: none;
+        width: 100%;
+    }
+    #progressBar div.selectedTitle {
+        font-size: 14px;
+    }
+    #progressBar li {
+        width: 7%;
+    }
+    div.responsive button.previous-step, div.responsive button.cancel-step, div.responsive button.next-step, div.responsive button.action-button {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 424px){
+    
+    
+}
+
+
+@media all and (max-width: 399px){
+
+    #cons_country, .NetscapeFix select {
+        max-width: 240px;
+        width: auto;
+    }
+    
+        #search_part_team ul li a {
+            font-size: 11px;
+        }
+        #content_body #search_part_team ul li a:hover,
+		.content #search_part_team ul li a:hover {
+            font-size: 11px;
+        }
+    
+    
+    
+}
+
+@media all and (max-width: 320px){
+    div.reg-summary-thanks-common-container div.reg-summary-address-info {
+        display: inherit;
+        width: 271px;
+    }
+    div.reg-summary-thanks-common-container div.reg-summary-event-info {
+        width: 293px;
+        display: inherit;
+    }
+}
+
+</style>
+
+<!--[if lt IE 9]>
+    
+    <style type="text/css">
+    /* styles to fix search button on pfind page without breaking search button on tfind page */ 
+
+		div#find_participant button.search-button, #fr_find_search {
+			background: url("../../images/friendraiser/icon_search_button.png") no-repeat top left!important;
+			width: 37px;
+			height: 31px;
+			border: none;
+
+			float: right;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)"!important;
+		} 
+
+		/*span#participant_find_search_text, span#team_find_search_text {
+                        display:block!important;
+			background: url("../../images/friendraiser/icon_search_button.png") no-repeat top left!important;
+			width: 37px!important;
+			height: 31px!important;
+			border: none!important;
+			float: right!important;
+                        text-indent: -9999px;
+		} */
+
+    </style>
+    
+<![endif]-->
+
+<!--[if IE 7]>
+
+  <style type="text/css">
+  /* style to control the main menu placement in IE7 - 5/7/12 - J. Vestal */
+
+  /* style for layout of team password field on team information page in IE 7 - 8/8/12 - J. Vestal*/
+
+  label[for=fr_team_password] {
+    white-space: pre !important;
+  }
+
+  div.donation-level-general-ask p img {
+    padding-bottom: 0px;
+  }
+
+  </style>
+
+<![endif]-->
+
+<!--[if lte IE 8]>
+
+    <style type="text/css">
+    
+    /* style to control the placement of text in the search input in the registration accordion - 5/7/12 - J. Vestal */
+    #create_team input.search_text, #join_team input.search_text, #restart_team input.search_text, #as_survivor input.search_text, #gen_donation input.search_text, #luminary input.search_text {
+    padding-top: 8px;
+    }
+    
+    </style>
+    
+    <![endif]-->
+    
+    <!--[if IE 9]>
+    
+    <style type="text/css">
+    /* style to control Top 5, Share Your Story, Relive Relay Memories header layout - 7/19/12 - J. Vestal */
+    
+    .relivememories h3 {
+      background-position-y: 9px;
+    }
+    
+    .shareyourstory h3 {
+      background-position-y: 11px;
+    }
+    
+    .cheerthetop5 h3 {
+      background-position-y: 8px;
+    }
+    
+    </style>
+
+<![endif]-->
+
+
+   <!-- event date year is 2015 -->
+   <!-- for testing, do not load the reclaimed team page code for 2015 teams -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+    
+    
+    <!-- If not on Ways to Relay, Ways to Volunteer or a TR greeting page -->
+    <!-- do not include event locator styles/scripts -->
+    
+    
+
+
+
+<!-- ******************** end Event Manager Center conditional -->
+
+
+<!-- script to open See all memories link in separate window in IE7/8 -->
+<!--
+<script type="text/javascript">
+	function setMemFeatureLink() {
+	   if (navigator.userAgent.indexOf('MSIE 8.0') !=-1 || navigator.userAgent.indexOf('MSIE 7.0') !=-1)
+	       {
+	        if (document.getElementById("memFeatureLink") != null) {
+	         
+	         document.getElementById("memFeatureLink").setAttribute("href", "PageServer?pagename=RFL_CAN_NATL_memories&s_locale=fr_CA&pgwrap=n");
+	         
+	         document.getElementById("memFeatureLink").setAttribute("target", "_blank");
+	         }
+	       }
+	}
+	addOnLoadHandler(setMemFeatureLink);
+
+</script>-->
+
+<!-- end to open See all memories link in separate window in IE7/8 -->
+
+
+
+<!-- script to control layout of the team company, team password and team fundraising goal fields on the create a team page in the company team path for IE7 - 8/8/12 - J. Vestal -->
+
+<!--[if IE 7]>
+
+	<script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('label[for="fr_team_password"]').css('white-space','pre');
+            /*jQuery('input[name="fr_team_goal"]').css('margin-top','25px');*/
+        
+        });
+        
+    </script>
+
+<![endif]-->
+
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($){
+				jQuery("[title^='edit']").each(function() { this.title = ''; }); 
+			});
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//	jQuery.noConflict();
+	
+	var $= jQuery.noConflict();
+	
+	jQuery(document).ready(function(){
+			/* Ben's script that removes the "vAlign" property from the registration form */
+//		jQuery("[valign]").attr("valign","center");
+			
+		/* Ben's script that opens the "email preferences" link in a new window */
+		jQuery('[href="http://convio.cancer.ca/site/PageNavigator/National/GEN_CAN_understanding_your_e_mail_preferences"]').attr("target","_blank");
+            
+            
+	});
+</script>
+
+
+<!-- do not load in event manager center -->
+<script type="text/javascript" src="../ccs/rfl_natl_2015/js/main.js?test=056"></script> 
+
+<script>
+    var sLocation = window.location.protocol +
+        '//' + window.location.hostname +
+//        window.location.pathname +
+		'/funnel/TR/RFL_NATL_Dreamteam_2015/personal' +
+        window.location.search;
+
+//    var sPage = window.location.pathname + 
+    var sPage = '/funnel/TR/RFL_NATL_Dreamteam_2015/personal' +
+        window.location.search;
+
+    var sTitle = document.title; 
+	
+// province set in the State field for the current TeamRaiser (if any)
+	var trState = '';
+ 
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+  ga('create', 'UA-56193507-2' , 'auto', {'allowLinker': true});
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'linker');
+  ga('linker:autoLink', ['convio.cancer.ca', 'secure2.convio.net'] );
+  ga('send', 'pageview',{
+                'location':sLocation,
+                'page':sPage,
+                'title':sTitle
+  });
+
+
+  var sUACode = '';
+  switch (trState) {
+                  case 'AB':
+                                  //ab code here
+                                  sUACode = 'UA-68916437-4';
+                                  break;
+                  case 'BC':
+                                  //bc code here
+                                  sUACode = '';
+                                  break;
+                  case 'ON':
+                                  //on code here
+                                  sUACode = 'UA-1039484-48';
+                                  break;
+                  case 'MB':
+                                  //mb code here
+                                  sUACode = '';
+                                  break;
+                  case 'NB':
+                                  //nb code here
+                                  sUACode = '';
+                                  break;
+                  case 'NL':
+                                  //nl code here
+                                  sUACode = '';
+                                  break;
+                  case 'NS':
+                                  //ns code here
+                                  sUACode = 'UA-62598734-1';
+                                  break;
+                  case 'PE':
+                                  //pe code here
+                                  sUACode = 'UA-3782432-2';
+                                  break;
+                  case 'SK':
+                                  //sk code here
+                                  sUACode = '';
+                                  break;
+                  case 'QC':
+                                  //qc code here
+                                  sUACode = 'UA-66852536-1';
+                                  break;
+                  default:
+                                  //unknown state/province
+                                  sUACode = '';
+  }
+  if (sUACode.length > 0) {
+                ga('create', sUACode, {name: 'newTracker'});
+                ga('newTracker.require', 'displayfeatures');
+                ga('newTracker.require', 'linkid', 'linkid.js', 'linker');
+                ga('linker:autoLink', ['convio.cancer.ca', 'secure2.convio.net'] );
+                ga('newTracker.send', 'pageview',{
+                                'location':sLocation,
+                                'page':sPage,
+                                'title':sTitle
+                });
+  }
+	console.log('sUACode ' + sUACode);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+		
+</head>
+<body
+
+
+
+
+
+
+
+
+
+
+
+
+class="mobile" 
+>	
+<a href="http://convio.cancer.ca/site/TR?px=6379736&amp;fr_id=19397&amp;pg=personal#content" title="Skip to Main Content" class="accessibility_link">Skip to Main Content</a>
+
+
+  <!-- id in session (x19397x) -->
+  
+
+<!-- set trID x19397x = independent var x19397x -->
+
+<!-- confirm trID x19397x -->
+
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-564a4331d45ec630" async></script>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="sb-site">
+        <div class="header-container">
+            <div class="header">
+            	<!-- RFL_NATL_2015_reus_wrpr_header -->
+            	                
+					<a id="logo-link" href="http://relaispourlavie.ca">Relais pour la vie - Société canadienne du cancer</a>
+				
+                <div class="mobile-log-in mobile-only left">
+                	
+						
+							<a href="UserLogin?pw_id=25382&NEXTURL=http://convio.cancer.ca/site/TR?px=6379736&amp;fr_id=19397&amp;pg=personal">Connexion</a>
+						
+						<!-- <a href="UserLogin?NEXTURL=http://convio.cancer.ca/site/TR?px=6379736&amp;fr_id=19397&amp;pg=personal&s_AffiliateSecCatId=1451&pw_id=25382">Log In</a> -->
+                    
+                    <div class="subnav-container-loggedmobile">
+                        <div class="arrow-up-gray arrow-loggedmobile"></div>
+                        <div class="arrow-up-white arrow-loggedmobile"></div>
+                        <div class="header-sub-nav loggedmobile">
+			            	<!-- RFL_NATL_2015_reus_wrpr_header_logged_in -->
+			            	                            <ul>
+                                
+                                    
+										
+											<li class="desktop-only"><a href="#my-relay-box" class="my-relay-link fancybox">Mes événements</a></li>
+			                                <li class="mobile-only"><a href="PageServer?pagename=RFL_NATL_2015_events_registered">Mes événements</a></li>
+                                        
+                                    
+    
+                                
+								
+                                
+                                    <li><a href="ConsProfileUser?dispMode=edit&s_AffiliateSecCatId=1451&pw_id=25382&s_locale=fr_CA">Profil</a></li>
+                                    <!--<li><a href="UserLogin?logout=logout&NEXTURL=http://convio.cancer.ca/site/TR?px=6379736&amp;fr_id=19397&amp;pg=personal&s_AffiliateSecCatId=1451&pw_id=25382">Log out</a></li>-->
+                                    <li><a href="UserLogin?logout=logout&NEXTURL=http%3A%2F%2Fconvio.cancer.ca%2Fsite%2FTR%3Fpx%3D6379736%26amp%3Bfr_id%3D19397%26amp%3Bpg%3Dpersonal%26s_locale%3Dfr_CA%26t%3D1474894257170%0A">Déconnexion</a></li>
+								
+                            </ul>
+
+
+
+    <script type="text/javascript">
+
+            jQuery(document).ready(function($){
+
+				var formatSingleEventList = function(){
+					var singleEventSystemListCheck = jQuery('.single-event-systemList table a').length;
+					console.log('singleEventSystemListCheck ' + singleEventSystemListCheck);
+						jQuery('.single-event-systemList table.lc_Table tr a').each(function(){
+							var pcLink = jQuery(this).attr('href');
+							var splitLink = pcLink.split('fr_id=');
+							var trId = splitLink[1];
+							var entryLink = 'TR?fr_id='+trId+'&pg=entry';
+							var eventName = jQuery(this).text();
+							var eventDate = jQuery(this).parent().parent().next().children().text();
+	
+							
+								jQuery('.single-event-home').html('<a href="'+entryLink+'">Accueil de l\'événement</a>');
+								jQuery('.single-event-pc').html('<a href="'+pcLink+'">Centre du participant</a>');
+							
+						});
+				}
+				
+				formatSingleEventList();
+			});
+    </script>
+
+
+
+                            
+			            	<!-- end RFL_NATL_2015_reus_wrpr_header_logged_in -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="header-right">
+                    <div class="mobile-nav mobile-only right">
+                        <div class="sb-toggle-right"><img alt-"mobile menu icon" src="../ccs/rfl_natl_2015/img/icon_mobile_menu_white.png" /><br />Menu</div>
+                    </div>
+                    <div class="header-top-nav desktop-only">
+		            	<!-- RFL_NATL_2015_reus_wrpr_header_top_nav -->
+		            	                    <ul>
+                        
+                            <li><a href="#log-in-box" class="fancybox">Centre du participant</a></li>
+                        
+                        <li>|</li>
+                        <li><a href="http://convio.cancer.ca/site/TR?px=6379736&fr_id=19397&pg=personal&s_locale=en_CA">English</a></li>
+                    </ul>
+
+
+		            	<!-- end RFL_NATL_2015_reus_wrpr_header_top_nav -->
+                    </div>
+                    <div class="header-main-nav desktop-only">
+		            	<!-- RFL_NATL_2015_reus_wrpr_header_main_nav -->
+		            	                    <ul>
+                        
+                            
+                                
+                                    <!-- on the Dream Team TeamRaisers, hide the registration option -->
+                                
+                            
+                        
+                        
+                            
+                                <!-- TR is accepting donations -->
+                                <li><a href="TR?fr_id=19397&pg=pfind">Faites un don</a></li>
+                            
+                        
+                        <li><a href="PageServer?pagename=RFL_CAN_NATL_yourimpact">Votre impact</a></li>
+                        <li><a class="arrow" id="main-nav-about" href="javascript:void(0);">À propos du Relais</a>
+                            <div class="subnav-container-about">
+                                <div class="arrow-up-gray arrow-about"></div>
+                                <div class="arrow-up-white arrow-about"></div>
+                                <div class="header-sub-nav about">
+                                    <ul>
+                                        <li class="two-line"><a href="PageServer?pagename=RFL_CAN_NATL_abouttherelay&pw_id=25382">Qu'est-ce que le Relais pour la vie?</a></li>
+                                        <li class="two-line"><a href="PageServer?pagename=RFL_CAN_NATL_howtostayontrack&pw_id=25382">Conseils pour la collecte de fonds</a></li>
+                                        <li><a href="PageServer?pagename=RFL_CAN_NATL_whereyourmoneygoes&pw_id=25382">Où va l'argent recueilli?</a></li>
+<!--                                            <li><a href="PageServer?pagename=RFL_CAN_NATL_highlights&pw_id=25382">Faits saillants de 2014</a></li>
+                                        <li><a href="PageServer?pagename=RFL_CAN_NATL_whereyourmoneygoes&pw_id=25382">Votre impact</a></li> -->
+<!--                                            <li class="two-line"><a href="Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=44464&pw_id=25382">Demande de renseignements</a></li> -->
+                                        <li class="two-line"><a href="https://cancer.leadpages.co/relais-pour-lavie-jeunes/">Relais pour la vie dans les écoles</a></li>
+                                        <li><a href="PageServer?pagename=RFL_CAN_NATL_FAQ&pw_id=25382">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="arrow" id="main-nav-involved" href="javascript:void(0);">Impliquez-vous</a>
+                            <div class="subnav-container-involved">
+                                <div class="arrow-up-gray arrow-involved"></div>
+                                <div class="arrow-up-white arrow-involved"></div>
+                                <div class="header-sub-nav involved">
+                                    <ul>
+                                        
+                                            
+                                                <!-- on the Dream Team TeamRaisers, hide the volunteer option -->
+                                            
+                                        
+                                        
+                                            
+                                                <!-- on the Dream Team TeamRaisers, hide the volunteer option -->
+                                            
+                                        
+                                        <li class="two-line"><a href="PageServer?pagename=RFL_CAN_reus_national_team_list">Programme des entreprises généreuses</a></li>
+                                        <li class="two-line"><a href="https://cancer.leadpages.co/relais-pour-lavie-jeunes/">Organisez un Relais à votre école</a></li>
+                                        <li><a href="PageServer?pagename=RFL_NATL_sponsorship&s_locale=fr_CA">Commandite</a></li>
+                                        <!-- <li class="two-line"><a href="http://convio.cancer.ca/site/TR?fr_id=21632&pg=entry&s_locale=fr_CA">Relais pour la vie équipe de rêve</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                        <a href="#log-in-box" class="btn-log-in fancybox">Connexion</a>
+                    
+
+
+		            	<!-- end RFL_NATL_2015_reus_wrpr_header_main_nav -->
+                    </div>
+                    <div class="subnav-container-logged">
+                        <div class="arrow-up-gray arrow-logged"></div>
+                        <div class="arrow-up-white arrow-logged"></div>
+                        <div class="header-sub-nav logged">
+			            	<!-- RFL_NATL_2015_reus_wrpr_header_logged_in -->
+			            	                            <ul>
+                                
+                                    
+										
+											<li class="desktop-only"><a href="#my-relay-box" class="my-relay-link fancybox">Mes événements</a></li>
+			                                <li class="mobile-only"><a href="PageServer?pagename=RFL_NATL_2015_events_registered">Mes événements</a></li>
+                                        
+                                    
+    
+                                
+								
+                                
+                                    <li><a href="ConsProfileUser?dispMode=edit&s_AffiliateSecCatId=1451&pw_id=25382&s_locale=fr_CA">Profil</a></li>
+                                    <!--<li><a href="UserLogin?logout=logout&NEXTURL=http://convio.cancer.ca/site/TR?px=6379736&amp;fr_id=19397&amp;pg=personal&s_AffiliateSecCatId=1451&pw_id=25382">Log out</a></li>-->
+                                    <li><a href="UserLogin?logout=logout&NEXTURL=http%3A%2F%2Fconvio.cancer.ca%2Fsite%2FTR%3Fpx%3D6379736%26amp%3Bfr_id%3D19397%26amp%3Bpg%3Dpersonal%26s_locale%3Dfr_CA%26t%3D1474894257402%0A">Déconnexion</a></li>
+								
+                            </ul>
+
+
+
+    <script type="text/javascript">
+
+            jQuery(document).ready(function($){
+
+				var formatSingleEventList = function(){
+					var singleEventSystemListCheck = jQuery('.single-event-systemList table a').length;
+					console.log('singleEventSystemListCheck ' + singleEventSystemListCheck);
+						jQuery('.single-event-systemList table.lc_Table tr a').each(function(){
+							var pcLink = jQuery(this).attr('href');
+							var splitLink = pcLink.split('fr_id=');
+							var trId = splitLink[1];
+							var entryLink = 'TR?fr_id='+trId+'&pg=entry';
+							var eventName = jQuery(this).text();
+							var eventDate = jQuery(this).parent().parent().next().children().text();
+	
+							
+								jQuery('.single-event-home').html('<a href="'+entryLink+'">Accueil de l\'événement</a>');
+								jQuery('.single-event-pc').html('<a href="'+pcLink+'">Centre du participant</a>');
+							
+						});
+				}
+				
+				formatSingleEventList();
+			});
+    </script>
+
+
+
+
+			            	<!-- end RFL_NATL_2015_wrpr_reus_header_logged_in -->
+                        </div>
+                    </div>
+                </div>
+
+            	<!-- end RFL_NATL_2015_reus_wrpr_header -->
+                <div class="clearme"></div>
+            </div> <!-- end header -->
+        </div> <!-- end header-container -->
+
+<a id="content"></a>
+
+
+        <div class="content-container">
+            <div class="content">
+            
+
+
+
+
+
+
+<div class="tr-page-container responsive clearfix" id="cnv2">
+<div class="clearfix" id="footer-wrapper">
+<div class="tr-page-header" id="personal_page_header">
+
+<h2>Bienvenue à ma page personnelle</h2>
+
+</div>
+<div class="tr-page-main-content" id="personal_page_main_content" class="main">
+
+<div class="mobile-donate">
+
+<a class="entry-text-link next-step step-button" id="main_donate_button" href="https://secure2.convio.net/cco/site/Donation2?df_id=26683&PROXY_ID=6379736&PROXY_TYPE=20&FR_ID=19397">Faites un don</a>
+
+</div>
+
+
+
+<div class="tr-image-div" id="personal_page_image_div">
+<img src="../images/friendraiser_uploads/19397.837277472.custom.jpg" alt="" />
+<div class="caption">
+
+</div>
+</div>
+
+
+
+<div class="manageable-editor-window-editor" data-container="edit_fr_rich_text_container">
+<div class="personal-page-description mobile-view-description" id="fr_rich_text_container">
+<p><strong>Pourquoi je participe au Relais</strong></p>
+<p>Je suis tr&egrave;s enthousiaste &agrave; l&rsquo;id&eacute;e de participer &agrave; cette &eacute;dition du Relais pour la vie de la Soci&eacute;t&eacute; canadienne du cancer car chaque pas franchi dans le cadre du Relais rapporte des fonds qui permettent &agrave; la Soci&eacute;t&eacute; canadienne du cancer de sauver des vies.<br />
+<br />
+Joignez-vous &agrave; moi pour combattre le cancer en me commanditant d&egrave;s maintenant. C&rsquo;est facile  vous n&rsquo;avez qu&rsquo;&agrave; cliquer sur le bouton &laquo; Faites un don &agrave; (mon nom) &raquo; du c&ocirc;t&eacute; sup&eacute;rieur droit de cette page (en haut du thermom&egrave;tre).<br />
+<br />
+D&eacute;couvrez pourquoi la Soci&eacute;t&eacute; canadienne du cancer est le partenaire par excellence dans la lutte contre le cancer au www.cancer.ca.<br />
+<br />
+<br />
+Merci de votre appui!</p>
+</div>
+<a href="javascript:void(0);" id="text_view_more_button">Afficher plus</a>
+</div>
+<script>
+Y.use('jquery',function(Y) {
+jQuery(function() {
+if (document.documentElement.clientWidth < 768) {
+debugger;
+var offsetHeight = document.getElementById('fr_rich_text_container').offsetHeight;
+var height = jQuery('#fr_rich_text_container').height();
+var scrollHeight = document.getElementById('fr_rich_text_container').scrollHeight;
+if (offsetHeight < scrollHeight) {
+jQuery("#text_view_more_button").css('display', "block");
+}
+}
+jQuery('#text_view_more_button').click(function() {
+if (jQuery(this).html() == 'Afficher moins') {
+jQuery('#text_view_more_button').html('Afficher plus');
+jQuery('.personal-page-description').addClass('mobile-view-description');
+} else {
+jQuery('#text_view_more_button').html('Afficher moins');
+jQuery('.personal-page-description').removeClass('mobile-view-description');
+}
+});
+});
+});
+</script><noscript>&nbsp;</noscript>
+
+
+<div class="blog">
+
+</div>
+</div>
+<div class="side-bar" id="personal_page_sidebar">
+<div class="menu clearfix" id="personal_page_menu">
+
+<div class="non-mobile-donate-button-container">
+
+<a class="entry-text-link next-step step-button" id="sidebar_donate_button" href="https://secure2.convio.net/cco/site/Donation2?df_id=26683&PROXY_ID=6379736&PROXY_TYPE=20&FR_ID=19397">Faites un don</a>
+
+</div>
+
+
+
+</div>
+
+
+<div class="tr-status-indicator-container" id="frStatus1">
+<div class="indicator-title">Progrès personnel :</div>
+<div id="7be7227c_thermometer" class="thermometer-container indicator-container">
+<div class="text clearfix">
+<div class="amount-percentage-info">
+<span class="amount-percentage-value">
+</span>
+<span class="amount-percentage-label">
+de l'objectif
+</span>
+</div>
+<div class="amount-raised-info">
+<span class="amount-raised-value">
+5 000,00 $
+</span>
+<span class="amount-raised-label">
+Recueilli
+</span>
+</div>
+<div class="total-goal-info">
+<span class="total-goal-value">
+5 000,00 $
+</span>
+</div>
+</div>
+<div class="thermometer-image">
+<div class="thermometer-outer">
+<div class="thermometer-inner">
+</div>
+</div>
+</div>
+<div class="donation-link-container">
+
+
+</div>
+<script type="text/javascript">
+Y.use("jquery-ui", function(Y) {
+jQuery(function() {
+var calcThermPercentage = function() {
+// calculate the thermometer percentage
+var raised = parseCurrency(jQuery('#7be7227c_thermometer .amount-raised-value').text());
+var goal = parseCurrency(jQuery('#7be7227c_thermometer .total-goal-value').text());
+var percent = raised / goal;
+if (percent > 1) {
+percent = 1;
+}
+var percentage = percent;
+if(isNaN(percentage)) {
+percentage = 0;
+}
+jQuery('#7be7227c_thermometer .amount-percentage-value').text(Math.floor(percentage * 100) + "%");
+// get the width of the outer container;
+var outerWidth = jQuery('#7be7227c_thermometer .thermometer-outer').css('width').slice(0, -2);
+var innerWidth = outerWidth * percent;
+jQuery('#7be7227c_thermometer .thermometer-inner').animate({'width': innerWidth + 'px'}, 1000);
+}; 	
+calcThermPercentage();
+var waitForFinalEvent = (function () {
+var timers = {};
+return function (callback, ms, uniqueId) {
+if (!uniqueId) {
+uniqueId = "default_unique_id";
+}
+if (timers[uniqueId]) {
+clearTimeout (timers[uniqueId]);
+}
+timers[uniqueId] = setTimeout(callback, ms);
+};
+})();
+jQuery(window).resize(function () {
+waitForFinalEvent(calcThermPercentage, 500, "7be7227c");
+});
+});
+});
+function parseCurrency(currency) {
+currency = currency.replace(/[^0-9\.]+/g,"");
+var val = parseInt(currency);
+return val;
+}
+</script>
+</div></div>
+
+
+<div class="tr-status-indicator-container" id="frStatus2"><!-- TemplateName=VScroll/VS_responsive.ftl -->
+<div class="donor-list-indicator-container">
+  <div class="indicator-title">
+    Liste d'honneur de collecte de fonds
+  </div>
+  <div id="scrolling_container_b9faa63" class="indicator-container vscroll-container">
+  	<div id="scrolling_container_b9faa63in">
+      <div class="team-honor-list-row indicator-list-row clearfix">
+        <div class="team-honor-list-name">
+            Alan MacIsaac
+        </div>
+        <div class="team-honor-list-value">
+          
+        </div>
+      </div>
+  	</div>
+    
+  </div>
+  <script type="text/javascript">
+	//addOnLoadHandler(function(){vScrollClass.initScroll('scrolling_container_b9faa63');});
+	//document.getElementById("scrolling_container_b9faa63").style.display = "";
+	
+	Y.use("jquery-ui", function(Y) {
+            jQuery(function() {
+            	vScrollClass.initScroll('scrolling_container_b9faa63');
+                document.getElementById("scrolling_container_b9faa63").style.display = "";
+            	var waitForFinalEvent2 = (function () {
+					var timers = {};
+						return function (callback, ms, uniqueId) {
+						    if (!uniqueId) {
+						      uniqueId = "default_unique_id";
+						    }
+						    if (timers[uniqueId]) {
+						      clearTimeout (timers[uniqueId]);
+						    }
+						    timers[uniqueId] = setTimeout(callback, ms);
+						};
+				})();
+				
+				jQuery(window).resize(function () {
+				    waitForFinalEvent2(function(){vScrollClass.resizeScroll('scrolling_container_b9faa63');}, 500, "b9faa63");
+				});
+            });
+        });
+  </script>
+</div></div>
+
+</div>
+</div>
+<div class="tr-personal-page-footer"> 
+<div class="custom-wysiwyg-html manageable-editor" id="personal_page_custom_html" data-container="edit_admin_footer_container">
+<div class="custom-wysiwyg-text" id="admin_footer_container">
+<div id="defaultContent"><p><a href="TR/RelayForLife/RFL_CAN_odd_?fr_id=19397&pg=entry" title="Page d'accueil">Plus d'info sur Relais pour la vie équipe de rêve</a></p><br />
+
+<!-- load the custom top 5 lists -->
+
+
+	        
+            <!-- on the team and personal pages, do not load the custom top 5 lists -->
+	
+
+</div>
+<!-- testing jean:  6379736x19397 -->
+
+    <div id="movedetails">
+        
+            <p>
+                
+                    <!-- hide the location details in the Dream Team TeamRaiser -->
+	                <a href="TR?fr_id=19397&pg=entry#member-list">Retour à la liste des membres de l'Équipe de rêve</a>
+                
+            </p>
+            <p>
+                <a href="http://www.facebook.com/sharer/sharer.php?u=http://relaispourlavie.ca&title=" target="_blank"><img src="../ccs/rfl_natl_2015/img/icon_facebook.png" alt="Facebook" /></a>
+                <a href="https://twitter.com/intent/tweet?text=Emparez-vous%20du%20b%C3%A2ton.%20Inscrivez-vous%20d%C3%A8s%20aujourd%E2%80%99hui!&hashtags=VivreLeRelais&url=http://relaispourlavie.ca&lang=fr" target="_blank"><img src="../ccs/rfl_natl_2015/img/icon_twitter.png" alt="Twitter" /></a>
+                <a href="http://convio.cancer.ca/site/TellAFriend?page=http%3A%2F%2Fconvio.cancer.ca%2Fsite%2FTR%3Fpx%3D6379736%26amp%3Bfr_id%3D19397%26amp%3Bpg%3Dpersonal&taf_sec_cat_id=1451" target="_blank"><img src="../ccs/rfl_natl_2015/img/icon_email.png" alt="Email" /></a>
+    
+            </p>
+        
+       
+    </div>
+    
+    <div id="movetop5">
+        
+            <h3>Bravo &#224; nos participants d'&#233;lite</h3>
+        
+        
+            
+&nbsp;&nbsp;1&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=6219687&amp;pg=personal&amp;fr_id=19397">Keith Bradbury</a>&nbsp;(50 535,52 $)<br />
+
+&nbsp;&nbsp;2&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=6347149&amp;pg=personal&amp;fr_id=19397">Scott Balfour</a>&nbsp;(22 630,00 $)<br />
+
+&nbsp;&nbsp;3&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=6258670&amp;pg=personal&amp;fr_id=19397">Shirley McAlary</a>&nbsp;(18 335,00 $)<br />
+
+&nbsp;&nbsp;4&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=3510589&amp;pg=personal&amp;fr_id=19397">Bonnie Bagnall</a>&nbsp;(15 556,65 $)<br />
+
+&nbsp;&nbsp;5&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=4272889&amp;pg=personal&amp;fr_id=19397">Jeff Forbes</a>&nbsp;(12 620,00 $)<br />
+
+&nbsp;&nbsp;6&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=4277831&amp;pg=personal&amp;fr_id=19397">Paulette Hicks</a>&nbsp;(11 821,88 $)<br />
+
+&nbsp;&nbsp;7&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=6219543&amp;pg=personal&amp;fr_id=19397">Jim Organ</a>&nbsp;(11 800,00 $)<br />
+
+&nbsp;&nbsp;8&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=5424585&amp;pg=personal&amp;fr_id=19397">Brent Marshall</a>&nbsp;(11 501,00 $)<br />
+
+&nbsp;&nbsp;9&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=6278489&amp;pg=personal&amp;fr_id=19397">Phil Otto</a>&nbsp;(11 175,00 $)<br />
+
+&nbsp;&nbsp;10&nbsp;-&nbsp;
+<a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?px=5723504&amp;pg=personal&amp;fr_id=19397">Miles Clyne</a>&nbsp;(10 825,00 $)<br />
+
+        
+    </div>
+    
+    <div id="movebadges">
+    <!-- S4: 26 -->
+        
+            
+                 
+                    <!-- # years - User Provided No Response -->
+                
+            
+        
+    </div>
+    
+    <style type="text/css">
+    
+    div.tr-page-main-content {
+        width: 640px;
+    }
+    
+    div.tr-page-container div.side-bar {
+        display:block;
+        width: 300px;
+        background-color: #e9e9e9;
+    }
+    
+    div#personal_page_menu {
+        margin: 10px;
+    }
+    
+    div.menu + div.tr-status-indicator-container {
+        margin-top: 0px;
+        padding: 10px 10px;
+    }
+    
+    div.tr-status-indicator-container + div.tr-status-indicator-container {
+        margin-top: 0;
+        padding: 0 10px 15px;
+    }
+    
+    div.donor-list-indicator-container {
+      margin-bottom: 0;
+    }
+
+    div.TrAchievementBadgeLarge {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	
+	div.TrAchievementBadgeLarge:last-child {
+		border-top: none;
+		padding-bottom: 10px;
+	}
+    
+    div.indicator-container, div.TrAchievementBadgeLarge {
+        background-color: #fff;
+    }
+    
+    div.tr-page-header {
+        padding: 0 0 0 10px;
+    }
+    
+    div.responsive a.next-step, div.responsive a.next-step:hover, div.responsive a.secondary-step, div.responsive a.secondary-step:hover {
+        background: none;
+    }
+    
+    div#personal_join_team_button_container {
+        margin-top: 0px;
+    } 
+    
+    a#sidebar_donate_button, div.responsive a.next-step, div.responsive a.next-step:hover, div.responsive a.secondary-step, div.responsive a.secondary-step:hover  {
+        display: block;
+        padding: 15px 20px;
+        float: none;
+        margin: 0;
+        color: #fff!important;
+        font-family: 'Rockwell-Bold';
+        font-size: 22px;
+        text-align: center;
+        text-decoration: none!important;
+        text-transform: uppercase;
+        line-height: normal;
+        border: none;
+        filter: none;
+        background-color:transparent;
+        background-image:none;
+    }
+    
+    
+    div.non-mobile-donate-button-container, #personal_join_team_button_container {
+        background: transparent url(../ccs/rfl_natl_2015/img/bg_hero_buttons_arrow.png) no-repeat;
+        background-position: 94% 50%;
+    
+    }
+    
+    .don-gradient {
+        background: #ffbd88; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYmQ4OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMlIiBzdG9wLWNvbG9yPSIjZWQ4ZTMxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkNjcyOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(top,  #ffbd88 0%, #ed8e31 3%, #dd6729 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffbd88), color-stop(3%,#ed8e31), color-stop(100%,#dd6729)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #ffbd88 0%,#ed8e31 3%,#dd6729 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #ffbd88 0%,#ed8e31 3%,#dd6729 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #ffbd88 0%,#ed8e31 3%,#dd6729 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #ffbd88 0%,#ed8e31 3%,#dd6729 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbd88', endColorstr='#dd6729',GradientType=0 ); /* IE6-8 */
+    }
+    
+    
+    .don-gradient:hover {
+        background: #dd6729; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RkNjcyOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk3JSIgc3RvcC1jb2xvcj0iI2VkOGUzMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmJkODgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,  #dd6729 0%, #ed8e31 97%, #ffbd88 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd6729), color-stop(97%,#ed8e31), color-stop(100%,#ffbd88)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #dd6729 0%,#ed8e31 97%,#ffbd88 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #dd6729 0%,#ed8e31 97%,#ffbd88 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #dd6729 0%,#ed8e31 97%,#ffbd88 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #dd6729 0%,#ed8e31 97%,#ffbd88 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd6729', endColorstr='#ffbd88',GradientType=0 ); /* IE6-8 */
+    }
+    
+    .reg-gradient {
+        background: #38b5ff;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod&#8230;IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(top, #38b5ff 0%, #128fd8 3%, #0063b3 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#38b5ff), color-stop(3%,#128fd8), color-stop(100%,#0063b3));
+        background: -webkit-linear-gradient(top, #38b5ff 0%,#128fd8 3%,#0063b3 100%);
+        background: -o-linear-gradient(top, #38b5ff 0%,#128fd8 3%,#0063b3 100%);
+        background: -ms-linear-gradient(top, #38b5ff 0%,#128fd8 3%,#0063b3 100%);
+        background: linear-gradient(to bottom, #38b5ff 0%,#128fd8 3%,#0063b3 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38b5ff', endColorstr='#0063b3',GradientType=0 );
+    }
+    
+    
+    .reg-gradient:hover {
+        background: #0063b3; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNjNiMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk3JSIgc3RvcC1jb2xvcj0iIzEyOGZkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOGI1ZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,  #0063b3 0%, #128fd8 97%, #38b5ff 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0063b3), color-stop(97%,#128fd8), color-stop(100%,#38b5ff)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #0063b3 0%,#128fd8 97%,#38b5ff 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #0063b3 0%,#128fd8 97%,#38b5ff 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #0063b3 0%,#128fd8 97%,#38b5ff 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #0063b3 0%,#128fd8 97%,#38b5ff 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0063b3', endColorstr='#38b5ff',GradientType=0 ); /* IE6-8 */
+    }
+    
+    
+    .corners {
+      width: 100%;
+        height: 100%;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    
+    a#personal_page_join_team_button {
+        padding-right: 22px;
+        padding-left: 25px;
+    }
+    
+    
+    div.thermometer-container div.thermometer-inner {
+        border: 1px solid #de6b2a;
+        background: #de6b2a; /* Old browsers */
+    }
+    
+    div.tr-page-header {
+        background-color: transparent;
+    }
+    
+    div.team-honor-list-name {
+        word-wrap: break-word !important;
+        overflow: visible;
+        white-space: normal;
+        float: left;
+    }
+    
+    #personal_page_image_div {
+        float:left;
+    }
+    
+    #event-details {
+        float:left;
+        width: 45%;
+        margin-left: 15px;
+    }
+    
+    #top5 {
+        float:none;
+    }
+    
+    #movedetails, #movetop5,#movebadges {
+        display:none;
+    }
+    
+    #newtop5 {
+        margin-top: 35px;
+    }
+        
+    #event-details img {
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    
+    
+    div.team-honor-list-name {
+        word-wrap: break-word !important;
+        overflow: visible;
+        white-space: normal;
+        float: left;
+    }
+    
+    .TrAchievementBadgeTextLarge {position: relative;}
+    
+    .TrAchievementBadgeTextLarge + .custom-badge {
+    /*    margin-top: 10px;*/
+        margin-top: 20px;
+    }
+    
+    .part-num {
+        /*font-size: 30px;*/
+        font-size: 16px;
+        font-weight: bold;
+        position: absolute;
+        /*top: 25px;*/
+        /*top: 36px;*/
+        top: 18px;
+        left: 0;
+        width: 48px;
+        text-align:center;
+    }
+    
+    
+    div.thermometer-container div.total-goal-info {
+        display:block;
+        text-align: center;
+    }
+    
+    div.thermometer-container span.total-goal-value-label, 
+    div.thermometer-container .amt-info span.percentage-value-label, 
+    div.thermometer-container .amt-info span.raised-value-label{
+        font-size: .8em;
+    }
+    
+    div.thermometer-container div.amount-percentage-info,
+    div.thermometer-container div.amount-raised-info {
+        display:none;
+    }
+    
+    div.thermometer-container .amt-info div.percentage-info,
+    div.thermometer-container .amt-info div.raised-info {
+        display:block;
+        text-align: center;
+    }
+    
+    div.thermometer-container span.total-goal-value,
+    div.thermometer-container .amt-info span.percentage-value, 
+    div.thermometer-container .amt-info span.raised-value {
+        display:block;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        #personal_page_image_div {
+            float:none;
+        }
+    
+        #event-details {
+            float:none;
+            width: auto;
+            margin-left: 0;
+            margin-bottom: 30px;
+        }
+    
+        div.tr-page-container div.side-bar {
+            width: 260px;
+        }
+    
+    
+        a#sidebar_donate_button, div.responsive a.next-step, div.responsive a.next-step:hover, div.responsive a.secondary-step, div.responsive a.secondary-step:hover  {
+            padding: 15px 23px;
+        }
+    
+    }
+    
+    @media only screen and (max-width: 767px) {
+        
+        div.tr-page-header {
+          padding: 0;
+        }
+    
+        .mobile div#personal_page_sidebar {
+          padding-top: 10px;
+          margin-top: 30px;
+        }
+    
+        #personal_page_image_div {
+            float:none;
+        }
+    
+        .mobile div#personal_page_image_div {
+            display: block;
+        }
+        
+        #event-details {
+            float:none;
+            width: auto;
+            margin-left: 0;
+            margin-bottom: 30px;
+        }
+        
+    }
+    </style>
+    
+    
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+    
+        var name = '';
+        
+        
+            // outside PC2 personal page preview, use these variables
+            var firstName = 'Alan';
+        
+    
+        var screenname =  '';
+        
+        if (screenname) {
+            name = screenname;
+        }
+        else {
+            name = firstName;
+        }
+        
+        var splitName = name.split('');
+        var nameCheck = splitName[splitName.length-1];
+    
+        
+            var anonymous = 'false';
+        
+        
+        
+             
+                
+                    jQuery('#personal_page_header h2').html("Aidez  " + name + " &agrave; prendre le Relais");
+                
+            
+        
+        
+        //are there any custom badges? 
+        var customBadgeCheck = jQuery('#movebadges .custom-badge').length;
+        console.log('customBadgeCheck ' + customBadgeCheck);
+        //are badges enabled for this TR in general?
+        var badgeCheck = '0';
+        console.log('badgeCheck ' + badgeCheck);
+        
+        var earnedBadges = jQuery('.TrAchievementBadgeLarge').length;
+        console.log('earnedBadges for 18613 ' + earnedBadges);
+    
+        //function to move custom badges into achievements area
+        var moveBadges = function() {
+            console.log('running moveBadges');
+            jQuery('#movebadges .custom-badge').each(function() {
+                var badge = jQuery(this).html();
+//                jQuery('.TrAchievementBadgeLarge').append('<div class="custom-badge clearfix">'+badge+'</div>');
+				jQuery('.TrAchievementBadgeLarge').last().append('<div class="custom-badge clearfix">'+badge+'</div>');
+            });
+        }
+    
+    //    if (badgeCheck > 0){
+            // If badges are enabled for this TeamRaiser
+            if (jQuery('.TrAchievementBadgeLarge').length === 0 && customBadgeCheck === 0){
+                // if no milestone badges and no custom badges exist, just rewrite the badge container HTML
+                console.log('found no badges');
+                jQuery('.TrAchievementBadgeIconListLarge').html('<div class="TrAchievementBadgeIconListLargeHeader">Accomplissements</div><div class="TrAchievementBadgeLarge">Aucun \u00E9cusson n\'a \u00E9t\u00E9 aquis</div>');
+            }
+            else if (jQuery('.TrAchievementBadgeLarge').length === 0 && customBadgeCheck > 0){
+                // if no milestone badges are earned but at least one custom badge exists
+                // rewrite the badge container HTML and add move in the custom badge
+                console.log('found only customs');
+                jQuery('.TrAchievementBadgeIconListLarge').html('<div class="TrAchievementBadgeIconListLargeHeader">Accomplissements</div><div class="TrAchievementBadgeLarge clearfix"></div>');
+                moveBadges();
+            }
+            else if (jQuery('.TrAchievementBadgeLarge').length > 0 && customBadgeCheck > 0){
+                // if at least one milestone badge exists and at least one custom badge exists
+                // rewrite the badge container HTML and add move in the custom badge
+                console.log('found some milestones and customs');
+                jQuery('.TrAchievementBadgeLarge').addClass('clearfix');
+                moveBadges();
+            }
+     //   }
+        
+        jQuery('div.non-mobile-donate-button-container').wrap('<div class="corners"><div class="don-gradient"></div></div>');
+        jQuery('#personal_join_team_button_container').wrap('<div class="corners"><div class="reg-gradient"></div></div>');
+    
+        var eventDetails = jQuery('#movedetails').html();
+        if (jQuery('#personal_page_image_div').length > 0) {
+            jQuery('#personal_page_image_div').after('<div id="event-details">'+eventDetails+'</div>');
+            jQuery('.manageable-editor-window-editor').addClass('clearme');
+        }
+        else {
+            jQuery('.manageable-editor-window-editor').before('<div id="event-details">'+eventDetails+'</div>');
+            jQuery('#event-details').css({'float':'none','width':'100%','margin-left':'0','margin-bottom':'30px'});
+        }
+    
+        jQuery('#personal_page_team_page_link').html('Visitez la page d\'&eacute;quipe');
+    
+        var top5 = jQuery('#movetop5').html();
+        jQuery('#personal_page_main_content').append('<div id="newtop5">'+top5+'</div>');
+    
+        var goal = '5 000,00 $';
+        var percentGoal = '100';
+        var amount = '5 000,00 $';
+    
+        
+//            var goalLabel = 'l\'objectif'
+            var goalLabel = 'Objectif'
+            var percentLabel = ' de l\'objectif';
+            var raisedLabel = ' Recueilli';
+        
+    //	var thermInfo = jQuery('.thermometer-container .text').html();
+    //	console.log('thermInfo ' + thermInfo);
+    
+        jQuery('.total-goal-info').append('<span class=total-goal-value-label>'+goalLabel+'</span>');
+    
+        jQuery('.donation-link-container').after('<div class="amt-info clearfix">'
+        + '<div class="percentage-info left">'
+        + '<span class="percentage-value">'+percentGoal+'%</span>'
+        + '<span class="percentage-value-label">'+percentLabel+'</span>'
+        + '</div>'
+        + '<div class="raised-info right">'
+        + '<span class="raised-value">'+amount+'</span>'
+        + '<span class="raised-value-label">'+raisedLabel+'</span>'
+        + '</div>'
+        + '</div>');
+        
+    //	jQuery('.amt-info').append(thermInfo);
+    
+    
+    });
+    </script>
+    
+
+
+
+
+
+<style type="text/css"><!--
+div.team-honor-list-name {
+  
+  word-wrap: break-word !important;
+overflow: visible;
+white-space: normal;
+
+  float: left;
+}
+
+</style>
+</div>
+</div>
+<p>Si vous pensez que cette page présente un contenu inadmissible, veuillez <a href="http://convio.cancer.ca/site/TR/RelayForLife/RFL_CAN_odd_?pg=objcon&fr_id=19397&px=6379736">en informer l'administrateur du système</a>.</p>
+</div>
+</div>
+
+            </div>
+        </div>
+    
+        <div class="footer-stats-container"> 
+            <div class="footer-stats">
+	           	<!-- RFL_NATL_2015_reus_footer_stats -->
+	           	            <div class="footer-stats-col left first">
+                <div class="footer-stats-num">2015</div>
+                <div class="footer-stats-text">Relais pour la vie</div>
+            </div>
+            <div class="footer-stats-col left">
+                <div class="footer-stats-num">331</div>
+                <div class="footer-stats-text">Communautés</div>
+            </div>
+            <div class="footer-stats-col right">
+                <div class="footer-stats-num">plus de 33M $</div>
+                <div class="footer-stats-text">Recueillis</div>
+            </div>
+
+
+	           	<!-- end RFL_NATL_2015_reus_footer_stats -->
+				<div class="clearme"></div>
+            </div>
+        </div>
+        
+        <div class="footer-social-container">
+            <div class="footer-social">
+	           	<!-- RFL_NATL_2015_reus_footer_social -->
+	           	                <div class="footer-social-col right">
+					<a href="http://www.facebook.com/sharer/sharer.php?u=http://relaispourlavie.ca&title=/funnel/TR/RFL_NATL_Dreamteam_2015/personal" target="_blank"><img src="../ccs/rfl_natl_2015/img/icon_facebook.png" alt="Facebook" /></a>
+                    <a href="https://twitter.com/intent/tweet?text=Emparez-vous%20du%20b%C3%A2ton.%20Inscrivez-vous%20d%C3%A8s%20aujourd%E2%80%99hui!&hashtags=VivreLeRelais&url=http://relaispourlavie.ca&lang=fr" target="_blank"><img src="../ccs/rfl_natl_2015/img/icon_twitter.png" alt="Twitter" /></a>
+                </div>
+                <div class="footer-social-col left"><p>À votre tour de passer le bâton. <br />Parlez du Relais pour la vie à vos parents et amis!</p></div>   
+
+
+	           	<!-- end RFL_NATL_2015_reus_footer_social -->
+                <div class="clearme"></div>
+            </div>
+        </div>
+        
+        <div class="footer-base-container">
+            <div class="footer-base">
+                <div class="footer-base-col left">
+	           		<!-- RFL_NATL_2015_reus_footer_base_left -->
+	           		                    <ul>
+                        <li><a href="http://www.cancer.ca">Cancer.ca</a></li>
+                        <li><a href="http://www.cancer.ca/en/about-us/contact-us/">Pour nous joindre</a></li>
+					</ul>
+                    <ul class="footer-base-nav2">
+                        <li><a href="http://www.cancer.ca/fr-ca/about-our-site/privacy-policy">Confidentialité</a></li>
+                        <li class="mobile-only"><a href="http://convio.cancer.ca/site/PageServer?pagename=RFLY_NATL_schools&s_locale=fr_CA">Relais à l'école</a></li>
+                        <li class="mobile-only"><a href="http://convio.cancer.ca/site/TR?px=6379736&fr_id=19397&pg=personal&s_locale=en_CA">English</a></li>
+                    </ul>
+                    <p>©Société canadienne du cancer. Tous droits réservés.</p>
+
+
+	           		<!-- end RFL_NATL_2015_reus_footer_base_left -->
+                </div>
+                <div class="footer-base-col right">
+	           		<!-- RFL_NATL_2015_reus_footer_base_right -->
+	           				
+	                    <a href="http://www.cancer.ca"><img src="../ccs/rfl_natl_2015/img/logo_ccs_footer_fr.png" alt="Société canadienne du cancer logo" /></a>
+					
+                    <a class="last" href="http://www.convio.com/poweredby"><img src="../ccs/rfl_natl_2015/img/logo_blackbaud.png" alt="Exploité par Blackbaud" /></a>
+
+	           		<!-- end RFL_NATL_2015_reus_footer_base_right -->
+	                <div class="clearme"></div>
+                </div>
+                <div class="clearme"></div>
+            </div>
+        </div>
+
+		
+    
+            <div style="display:none;">
+                <div id="log-in-box" class="log-in">
+                    <!-- RFL_NATL_2015_reus_lightbox_log_in -->
+                                    <h1>Connectez-vous à votre compte</h1>
+                <form action="UserLogin" id="lLogonForm" name="lLogonForm" method="post">
+                    <label for="USERNAME">Nom d&#8217;utilisateur :</label>
+                   <input type="text" name="USERNAME" id="USERNAME" size="8" maxlength="60" title="Nom d&#8217;utilisateur" /><br />
+                    <label for="Password">Mot de passe :</label>
+                   <input type="password" name="Password" id="Password" size="8" maxlength="20" title="Mot de passe" /><br />
+                   <input type="hidden" name="NEXTURL" value="http://convio.cancer.ca/site/TR?px=6379736&amp;fr_id=19397&amp;pg=personal&s_locale=fr_CA"/>
+                   <label for="RememberMe"><input type="checkbox" name="RememberMe" id="RememberMe" value="RememberMe" title="Remember Me" /> Mémoriser mon nom d'utilisateur et mon mot de passe</label>
+                   <p><!--
+	$HeadURL: http://svn.blackbaudcloud.com/svn/convio/customer/trunk/cco/site_data/684/00001684/template_sets/default/login/gigya_login_link.tpt $
+	$Id: gigya_login_link.tpt 277376 2016-02-17 20:01:29Z rpuckett@convio.com $
+
+Data Dictionary
+	A0  = Gigya API Key
+	A1  = Provider columns
+	A2  = Icon Link
+	A3  = NEXTURL
+	A4  = timestamp param
+	A5  = UID param
+	A6  = signature param
+	A7  = loginProvider param
+	A8  = NEXTURL param
+	A9  = firstName param
+	A10 = lastName param
+	A11 = gender param
+	A12 = birthDay param
+	A13 = birthMonth param
+	A14 = birthYear param
+	A15 = email param
+	A16 = country param
+	A17 = state param
+	A18 = city param
+	A19 = zip param
+	A20 = profileURL param
+	A21 = component ID
+	A22 = preview mode
+	A23 = Language
+	A24 = Janrain engage app name
+	A25 = Janrain enabled
+	A26 = Janrain providers list
+-->
+
+	<script type="text/javascript">
+
+	var appName = 'cdncancersociety';
+
+	(function() {
+		if (typeof window.janrain !== 'object') window.janrain = {};
+		if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
+		
+		// Check for a ? to see if there's an existing query string. indexOf() returns -1 if the string is not found.
+        var janrainServletUrl = 'https://secure2.convio.net/cco/site/JanrainLogin';
+		janrain.settings.tokenUrl = janrainServletUrl + (janrainServletUrl.indexOf('?') == -1 ? '?' : '&') + 'next_url=' + encodeURIComponent('http\x3A\x2F\x2Fconvio.cancer.ca\x2Fsite\x2FTR\x3Fpx\x3D6379736\x26fr_id\x3D19397\x26pg\x3Dpersonal');
+		janrain.settings.language = 'fr';
+		janrain.settings.type = 'modal';
+		janrain.settings.linkClass = 'janrainEngage';
+
+		function isReady() { janrain.ready = true; };
+		if (document.addEventListener) {
+		  document.addEventListener("DOMContentLoaded", isReady, false);
+		} else {
+		  window.attachEvent('onload', isReady);
+		}
+
+		var widgetId = 'janrainAuthWidget';
+		if (!document.getElementById(widgetId)) {
+			var e = document.createElement('script');
+			e.type = 'text/javascript';
+			e.id = widgetId;
+
+			if (document.location.protocol === 'https:') {
+			  e.src = 'https://rpxnow.com/js/lib/' + appName + '/engage.js';
+			} else {
+			  e.src = 'http://widget-cdn.rpxnow.com/js/lib/' + appName + '/engage.js';
+			}
+
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(e, s);
+		}
+	})();
+
+	Y.use('jquery-noconflict', function(Y){
+		var janrainProviderList = ["aol","facebook","linkedin","openid","twitter","yahoo"];
+		var providerIcon = jQuery('<span></span>');
+		jQuery.each(janrainProviderList, function(index, provider){
+			jQuery('#ID157668c5cfbloginLinks')
+				.append(
+					providerIcon.clone()
+					.addClass('janrain-provider-icon-16')
+					.addClass('janrain-provider-icon-' + provider)
+				);
+		});
+	});
+
+	</script>
+
+	<div class="loginText">
+		<a class="janrainEngage loginHref" href="#">
+			Utilisez vos données de connexion aux médias sociaux
+			<div id="ID157668c5cfbloginLinks" class="loginLinks janrainEngage" style="max-width:300px"></div>
+		</a>
+	</div>
+
+</p>
+                   <div class="log-in-actions">
+                        <p><a class="forgot-password-link" href="UserLogin">Mot de passe oublié?</a></p>
+                        <div class="corners log-in-form-btn"><input type="submit" name="login" id="login" value="Connexion" /></div>
+                        <div class="clearme"></div>
+                    </div>
+                </form>
+
+
+                    <!-- end RFL_NATL_2015_reus_lightbox_log_in -->
+                </div>
+            </div>
+		
+</div>
+
+<div class="sb-slidebar sb-right sb-style-overlay">
+	<!-- RFL_NATL_2015_reus_slidebar_mobile_nav -->
+	<!-- If in a TeamRaiser, set the TeamRaiser ID session variable every possible way -->
+
+
+  <!-- id in session (x19397x) -->
+  
+
+
+  
+
+
+<!-- set trID x19397x = independent var x19397x -->
+
+<!-- confirm trID x19397x -->
+
+
+
+
+    <div class="mobile-nav-header">
+        <div class="mobile-nav-header-label left">Menu</div>
+        <div class="mobile-nav-header-close right"><a href="" class="sb-toggle-right">Fermer</a></div>
+        <div class="clearme"></div>
+    </div>
+    <ul>
+        
+            
+                
+                    <!-- on the Dream Team TeamRaisers, hide the registration option -->
+                
+            
+        
+        
+            
+                <!-- TR is accepting donations -->
+                <li><a href="TR?fr_id=19397&pg=pfind">Faites un don</a></li>
+            
+        
+
+            
+                <li><a id="mobile-nav-pc" href="UserLogin?pw_id=25382&NEXTURL=PageServer?pagename=RFL_NATL_2015_events_registered" class="mobile-only">Centre du participant</a></li>
+            
+
+        <li><a href="javascript:void(0);" id="mobile-nav-about">À propos du Relais</a></li>
+            <ul class="mobile-sub-nav-about">
+                <li><a href="PageServer?pagename=RFL_CAN_NATL_abouttherelay&pw_id=25382">Qu'est-ce que le Relais pour la vie?</a></li>
+                <li><a href="PageServer?pagename=RFL_CAN_NATL_howtostayontrack&pw_id=25382">Conseils pour la collecte de fonds</a></li>
+                <li><a href="PageServer?pagename=RFL_CAN_NATL_whereyourmoneygoes&pw_id=25382">Où va l'argent recueilli?</a></li>
+<!--                    <li><a href="PageServer?pagename=RFL_CAN_NATL_highlights&pw_id=25382">Faits saillants de 2014</a></li>
+                <li><a href="Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=44464&pw_id=25382">Votre impact</a></li> -->
+                <li><a href="PageServer?pagename=RFLY_NATL_schools&s_locale=fr_CA">Relais pour la vie dans les écoles</a></li>
+                <li><a href="PageServer?pagename=RFL_CAN_NATL_FAQ&pw_id=25382">FAQ</a></li>
+            </ul>
+        <li><a href="javascript:void(0);" id="mobile-nav-involved">Impliquez-vous</a></li>
+            <ul class="mobile-sub-nav-involved">
+
+            
+                
+                    <!-- on the Dream Team TeamRaisers, hide the volunteer option -->
+                
+            
+            
+                
+                    <!-- TR is NOT accepting registrations or luminary purchase -->
+                    <li><a href="javascript:void(0);" class="closed">Achetez un luminaire</a></li>
+                
+            
+                <li><a href="PageServer?pagename=RFL_CAN_reus_national_team_list&pw_id=25382">Programme des entreprises généreuses</a></li>
+                <li><a href="PageServer?pagename=RFLY_NATL_schools&s_locale=fr_CA">Organisez un Relais à votre école</a></li>
+                <li><a href="PageServer?pagename=RFL_NATL_sponsorship&s_locale=fr_CA">Commandite</a></li>
+                <li><a href="http://convio.cancer.ca/site/TR?fr_id=19397&pg=entry&s_locale=fr_CA">Relais pour la vie équipe de rêve</a></li>
+            </ul>
+    </ul>
+
+
+
+
+	<!-- end RFL_NATL_2015_reus_slidebar_mobile_nav -->
+</div>
+
+
+<!-- use the ON tracking codes -->
+
+<div style="display:none;">
+<script type="text/javascript">
+(function l(d){
+var site = '6708', page = 'generic', s, er = d.createElement('script');
+er.type = 'text/javascript';
+er.async = true;
+er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
+s = d.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(er, s);
+})(document);
+</script>
+</div>
+
+<div style="display:none;">
+<script type="text/javascript">
+(function l(d){
+ var site = '6708', page = 'generic_buttons', s, er = d.createElement('script');
+ er.type = 'text/javascript';
+ er.async = true;
+ er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
+ s = d.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(er, s);
+})(document);
+</script>
+ </div>
+<!-- sec cat ID: 1451 -->
+
+
+
+
+</body>
+
+</html>

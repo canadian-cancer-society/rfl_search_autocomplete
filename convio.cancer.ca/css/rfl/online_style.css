@@ -1,0 +1,350 @@
+body 	{ 
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF; 
+	color: #000000;
+	text-align: center;
+	margin: 0; 
+	padding-top:9px; 
+	} 	  
+	
+p	 { 
+	font-size: 9pt;	
+	margin-bottom: 0px;	
+	}  
+	
+form { 
+	font-size: 9pt;	
+	margin: 0px;	
+	}  
+
+.title { 
+	font-size: 12pt; 
+	font-weight: bold; 
+	color: #F38EB5;
+	margin-top: 0px; 
+	margin-bottom: 10px
+	} 
+
+h1, h2, h3, h4, h5, h6 { 
+	font-size: 9pt; 
+	margin-bottom: 0px 
+	} 
+
+li {
+	font-size: 9pt; 
+	margin-left: 25px; 
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	color: #000000; 
+	background-color:transparent
+	}	
+
+/*LAYOUT STYLES*/
+
+
+.wrapper {
+	width: 773px;
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: left;
+	}
+
+.topheader {
+	width: 773px;
+	height: 70px;
+	margin: 0px;
+	}
+
+.logo	{
+	position: absolute;
+	width: 231px;
+	height: 65px;
+	margin-left: 15px;	
+	background-image: url(../../images/logo.jpg);
+	background-repeat: no-repeat
+	}
+
+.header {
+	width: 773px;
+	height: 30px;
+	margin: 0px;
+	}
+
+.headerleft {
+	position:absolute;
+	width: 19px;
+	height: 30px;
+	margin-left: 0px;
+	padding-left:0px;
+	background-image: url(../../images/yellow_leftcorner.gif);
+	}   		 	
+
+.headerbody { 
+	position:absolute; 
+	width: 740px; 
+	height: 30px; 
+	background-image: url('../../images/yellow_bg.gif'); 	
+	margin-left: 19px; 
+	padding-top: 6px; 
+	} 
+	
+html>body .headerbody { 
+	position:absolute; 
+	width: 740px; 
+	height: 24px; 
+	background-image: url('../../images/yellow_bg.gif'); 
+	background-repeat: repeat-x; 
+	margin-left: 19px; 
+	padding-top: 6px; 
+	} 
+
+.headerright {
+	position: absolute;
+	width: 19px;
+	height: 30px;
+	border: 0px;
+	padding:0px;
+	margin-left:754px;
+	background-image: url(../../images/yellow_rightcorner.gif);
+ 	}
+
+.topnav {
+	width: 773px;
+	height: 34px;
+	margin:0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	}
+
+.bannerphotocsd {
+	padding: 0px;
+	margin: 0px;
+	width: 773px;
+	height: 104px;
+	background-image: url(../../images/banner_en.jpg);
+	background-repeat: no-repeat;
+	}	   
+	
+#leftnavcontainer {
+	margin: 0px; 
+	padding:0px; 
+	width:150px; 
+	background-color: #F4F9FE;
+	border-right: 1px dashed #D2DCE7;
+	vertical-align:top;
+	}	 
+	
+#leftnav {	 
+	margin: 5px;
+	}	
+	
+.leftnavindent1 {
+	padding-top: 2px; 
+	padding-bottom: 2px; 
+	padding-left: 10px;	
+	font-weight: bold; 
+	margin: 0px;   
+	display: block;
+	background-image: url(../../images/arrow_related.gif);	  
+	background-repeat: no-repeat;  
+	border-top: 1px solid #D2DCE7;	 
+	}  
+
+.loginbox {
+	padding-top: 10px; 
+	padding-bottom: 2px; 
+	padding-left: 10px;		
+	margin: 0px;   
+	display: block;  	 
+	font-size: 11px;
+	color: #4B5058;
+	border-top: 1px solid #D2DCE7;	 
+	
+	}  	
+
+#middlestandard { 
+	margin:0px;
+	padding:10px; 
+	margin-left: 150px;	
+	width: 600px; 
+	vertical-align:top;
+	background: white;
+	}
+	
+a {	
+	color: #0066CC;
+	background-color:transparent; 
+	text-decoration: underline;
+	}	 
+
+a.sitenav  { 
+	color: #365073;	
+	background-color:transparent;  
+	font-size: 10pt;
+	text-decoration: none; 
+	}	
+
+a.sitenav:visited  { 
+	color: #365073;	
+	background-color:transparent;  
+	font-size: 10pt;
+	text-decoration: none; 
+	}	 
+
+a:hover.sitenav  {
+	color: #EC7E16;	 
+	background-color:transparent;  
+	font-size: 10pt;  
+	text-decoration: none;	 
+	}
+
+a.sitenavcurrent  {	
+	color: #EC7E16;	
+	background-color:transparent; 
+	font-size: 10pt;  
+	text-decoration: none;	 
+	}	
+
+a:hover.sitenavcurrent  { 
+	font-size: 10pt; 
+	text-decoration: none;	
+	}	 
+
+a.forgot {
+	margin-left: 5px;	
+	text-decoration: none;
+	}			   
+	
+a:hover.forgot {
+	text-decoration: underline
+	}				
+
+.footer {
+	width: 773px;
+	height: 26px;
+	margin-left: 0px;
+	}
+
+.footerleft {
+	position:absolute;
+	width: 21px;
+	height: 24px;
+	margin-left: 0px;
+	background-image: url(../../images/footer_left.gif);
+	}
+
+html>body .footerbody { 
+	position:absolute; 
+	color: #FFFFFF; 
+	background-color: #0066CC; 
+	font-size: 8pt;
+	width: 731px; 
+	height: 20px; 
+	margin-left: 21px;
+	padding-top: 4px
+	} 
+
+.footerbody { 
+	position:absolute; 
+	color: #FFFFFF; 
+	background-color: #0066CC; 
+	font-size: 8pt; 
+	width: 731px; 
+	height: 24px; 
+	margin-left: 21px; 
+	padding-top: 4px; 
+	}	
+
+.footerright {
+	position:absolute;
+	width: 21px;
+	height: 24px;
+	margin-left: 752px;
+	background-image: url(../../images/footer_right.gif);
+	}	  
+	
+.conviologo {
+	width: 108px;
+	height: 36px;
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 10px; 
+	background-image: url(../../images/convio_logo.gif)
+	}	
+
+.divider {
+	color: #0066CC;
+	background-color: #FFE600;
+	font-size: 10pt;
+	padding-right: 5px;
+	padding-left: 6px;
+	}
+
+/*FONT STYLES*/		 
+
+.footerbody .privacy {
+	color: #FFFFFF;
+	background-color: #0066CC;
+	font-size: 8pt;
+	text-decoration: none; 
+	} 
+	
+.footerbody a.privacy:hover {
+	color: #FFFFFF;
+	background-color: #0066CC;
+	font-size: 8pt;
+	text-decoration: underline; 
+	}		   
+
+.copyright {
+	color: #FFFFFF;
+	background-color: #0066CC;
+	font-size: 8pt;
+	padding-left: 400px;
+	}
+
+.headerbody a.toplinks {
+	color: #0066CC;
+	background-color: #FFE600;
+	font-size: 10pt;
+	text-decoration: none
+	}	  
+	 
+.headerbody a.toplinks:hover {
+	color: #0066CC;
+	background-color: #FFE600;
+	font-size: 10pt;
+	text-decoration: underline
+	}		
+
+a {	  
+	color: #0066CC;		
+	text-decoration: underline;	 
+	}	
+
+a:hover {
+	text-decoration: underline;
+	}	
+
+.loginhead {
+	color: #4F89CF;
+	font-weight: bold;
+	font-size: 10pt;	
+	}  
+	
+.blogin { 
+	margin-left: 40px;
+	margin-top: 10px;	
+	}	
+	
+#give_hdr_container {color:#FFFFFF;} 
+
+/* Donation form header style */
+/* Added 4/1/11 - J. Vestal */
+
+td.TableHeadings, td.FormSectionHeader h5 {
+background-color: #545454;
+}
+
+	
+			
